@@ -30,7 +30,7 @@ const monorepo = new TurborepoTsProject({
 
   devDeps: ["@yersh/projen-turborepo", "@yersh/projen-nextjs", "eslint@^7"],
 
-  gitignore: [".env"],
+  gitignore: [".env", "out"],
 
   turborepo: {
     pipeline: {
@@ -53,9 +53,9 @@ const database = new TypeScriptProject({
   devDeps: ["prisma", "@faker-js/faker"],
 });
 
-const kinguruNext = new NextJsTsProject({
+const web = new NextJsTsProject({
   parent: monorepo,
-  name: "kinguru-next",
+  name: "web",
   outdir: "apps/web",
   defaultReleaseBranch: "main",
   packageManager: NodePackageManager.PNPM,
@@ -69,12 +69,12 @@ const kinguruNext = new NextJsTsProject({
 
 database.preCompileTask.exec("npx prisma generate");
 
-[kinguruNext, database].forEach((project) => {
+[web, database].forEach((project) => {
   project.package.addField("private", true);
   project.gitignore.include(".env");
 });
 
-[monorepo, kinguruNext, database].forEach((project) => {
+[monorepo, web, database].forEach((project) => {
   project.deps.removeDependency("eslint");
   project.deps.addDependency("eslint@^7", DependencyType.DEVENV);
 });

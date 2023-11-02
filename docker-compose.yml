@@ -1,0 +1,6 @@
+services:
+  web:
+    image: $WERF_WEB_DOCKER_IMAGE_NAME
+    restart: always
+    ports:
+      - "3000:3000"

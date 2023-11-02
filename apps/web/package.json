@@ -1,5 +1,5 @@
 {
-  "name": "kinguru-next",
+  "name": "web",
   "scripts": {
     "build": "npx projen build",
     "compile": "npx projen compile",
