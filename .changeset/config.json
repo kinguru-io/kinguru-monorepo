@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "edelwud/kinguru-monorepo"
+      "repo": "kinguru-io/kinguru-monorepo"
     }
   ],
   "baseBranch": "main",
