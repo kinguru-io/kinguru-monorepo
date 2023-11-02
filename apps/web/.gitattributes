@@ -14,5 +14,6 @@
 /LICENSE linguist-generated
 /package.json linguist-generated
 /pnpm-lock.yaml linguist-generated
+/postcss.config.js linguist-generated
 /tsconfig.dev.json linguist-generated
 /tsconfig.json linguist-generated

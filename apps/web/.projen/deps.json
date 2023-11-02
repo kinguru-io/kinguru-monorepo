@@ -24,6 +24,10 @@
       "type": "build"
     },
     {
+      "name": "autoprefixer",
+      "type": "build"
+    },
+    {
       "name": "constructs",
       "version": "^10.0.0",
       "type": "build"
@@ -53,8 +57,16 @@
       "type": "build"
     },
     {
+      "name": "eslint-plugin-tailwindcss",
+      "type": "build"
+    },
+    {
       "name": "npm-check-updates",
       "version": "^16",
+      "type": "build"
+    },
+    {
+      "name": "postcss",
       "type": "build"
     },
     {
@@ -66,6 +78,10 @@
       "type": "build"
     },
     {
+      "name": "tailwindcss",
+      "type": "build"
+    },
+    {
       "name": "typescript",
       "type": "build"
     },
@@ -73,6 +89,19 @@
       "name": "eslint",
       "version": "^7",
       "type": "devenv"
+    },
+    {
+      "name": "@nextui-org/react",
+      "type": "runtime"
+    },
+    {
+      "name": "database",
+      "version": "*",
+      "type": "runtime"
+    },
+    {
+      "name": "framer-motion",
+      "type": "runtime"
     },
     {
       "name": "next",

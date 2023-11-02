@@ -15,3 +15,5 @@ tsconfig.tsbuildinfo
 /.eslintrc.json
 /.next/
 /tsconfig.json
+/postcss.config.json
+/tailwind.config.js

@@ -1,5 +1,5 @@
 {
-  "name": "database",
+  "name": "kinguru-next",
   "scripts": {
     "build": "npx projen build",
     "compile": "npx projen compile",
@@ -23,6 +23,7 @@
     "@types/react-dom": "^18.2.14",
     "@typescript-eslint/eslint-plugin": "^6",
     "@typescript-eslint/parser": "^6",
+    "autoprefixer": "^10.4.16",
     "constructs": "^10.0.0",
     "eslint": "^7",
     "eslint-config-next": "^14.0.1",
@@ -31,12 +32,18 @@
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-tailwindcss": "^3.13.0",
     "npm-check-updates": "^16",
+    "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "projen": "^0.76.17",
+    "tailwindcss": "^3.3.5",
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.1.13",
+    "database": "workspace:*",
+    "framer-motion": "^10.16.4",
     "next": "^14.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

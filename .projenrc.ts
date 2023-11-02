@@ -1,3 +1,4 @@
+import { NextJsTsProject } from "@yersh/projen-nextjs";
 import { TurborepoTsProject } from "@yersh/projen-turborepo";
 import { DependencyType } from "projen";
 import { NodePackageManager } from "projen/lib/javascript";
@@ -25,14 +26,11 @@ const monorepo = new TurborepoTsProject({
 
   devDeps: ["@yersh/projen-turborepo", "@yersh/projen-nextjs", "eslint@^7"],
 
+  gitignore: [".env"],
+
   turborepo: {
     pipeline: {
-      build: {
-        dependsOn: ["^build"],
-        outputs: [".next/**", "!.next/cache/**", "dist/**", "lib/**"],
-      },
-      eslint: {},
-      test: {},
+      dev: {},
     },
   },
 });
@@ -43,11 +41,38 @@ const database = new TypeScriptProject({
   outdir: "packages/database",
   defaultReleaseBranch: "main",
   packageManager: NodePackageManager.PNPM,
+
+  eslint: true,
+  prettier: true,
+
+  deps: ["@prisma/client", "@prisma/instrumentation"],
+  devDeps: ["prisma", "@faker-js/faker"],
 });
 
-database.package.addField("private", true);
+const kinguruNext = new NextJsTsProject({
+  parent: monorepo,
+  name: "kinguru-next",
+  outdir: "apps/web",
+  defaultReleaseBranch: "main",
+  packageManager: NodePackageManager.PNPM,
 
-monorepo.deps.removeDependency("eslint");
-monorepo.deps.addDependency("eslint@^7", DependencyType.DEVENV);
+  eslint: true,
+  prettier: true,
+  nextui: true,
+
+  deps: ["database@*"],
+});
+
+database.preCompileTask.exec("npx prisma generate");
+
+[kinguruNext, database].forEach((project) => {
+  project.package.addField("private", true);
+  project.gitignore.include(".env");
+});
+
+[monorepo, kinguruNext, database].forEach((project) => {
+  project.deps.removeDependency("eslint");
+  project.deps.addDependency("eslint@^7", DependencyType.DEVENV);
+});
 
 monorepo.synth();

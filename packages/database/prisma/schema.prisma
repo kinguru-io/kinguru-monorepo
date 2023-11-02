@@ -1,0 +1,293 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["tracing"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id               String            @id @default(cuid())
+  name             String?
+  email            String            @unique
+  emailVerified    DateTime?
+  stripeCustomerId String?           @unique
+  image            String?
+  confirmed        Boolean           @default(false)
+  firstname        String?
+  lastname         String?
+  phoneNumber      String?
+  description      String?
+  gender           UserGender?       @default(notSpecified)
+  birthdate        DateTime?         @db.Date
+  country          String?
+  city             String?
+  position         String?
+  company          String?
+  interests        String[]
+  vk               String?
+  facebook         String?
+  instagram        String?
+  linkedin         String?
+  telegram         String?
+  website          String?
+  role             UserRole          @default(user)
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+  events           Event[]
+  participant      UsersOnEvent[]
+  places           Place[]
+  speaker          Speaker?
+  accounts         Account[]
+  sessions         Session[]
+  eventComments    EventComment[]
+  placeComments    PlaceComment[]
+  speakerComments  SpeakerComment[]
+  following        SpeakerFollower[]
+  ticketIntents    TicketIntent[]
+}
+
+enum UserRole {
+  user
+  admin
+}
+
+enum UserGender {
+  male
+  female
+  notSpecified
+}
+
+model Account {
+  id                String       @id @unique @default(cuid())
+  user              User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId            String
+  type              ProviderType
+  provider          String
+  providerAccountId String
+  refresh_token     String?      @db.Text
+  access_token      String?      @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?      @db.Text
+  session_state     String?
+
+  @@unique([provider, providerAccountId])
+}
+
+enum ProviderType {
+  oauth
+  email
+  credentials
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId       String
+  sessionToken String   @unique
+  expires      DateTime
+}
+
+model VerificationRequest {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Speaker {
+  id          String            @id @default(cuid())
+  user        User              @relation(fields: [userId], references: [id])
+  userId      String            @unique
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+  participant SpeakersOnEvent[]
+  comments    SpeakerComment[]
+  followers   SpeakerFollower[]
+}
+
+model SpeakerComment {
+  id        String   @id @default(cuid())
+  speaker   Speaker  @relation(fields: [speakerId], references: [id])
+  speakerId String
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  rating    Float    @default(0.00)
+  message   String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model SpeakerFollower {
+  speaker    Speaker  @relation(fields: [speakerId], references: [id])
+  speakerId  String
+  user       User     @relation(fields: [userId], references: [id])
+  userId     String
+  followedAt DateTime @default(now())
+
+  @@id([speakerId, userId])
+}
+
+model Event {
+  id              String            @id @default(cuid())
+  topic           String
+  description     String
+  status          EventStatus       @default(unmoderated)
+  initiator       User              @relation(fields: [initiatorId], references: [id])
+  initiatorId     String
+  place           Place             @relation(fields: [placeId], references: [id])
+  placeId         String
+  starts          DateTime          @db.Timestamp
+  duration        DateTime?         @db.Time
+  poster          String?
+  price           Float?
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+  tags            String[]
+  resources       EventResource[]
+  comments        EventComment[]
+  usersOnEvent    UsersOnEvent[]
+  speakersOnEvent SpeakersOnEvent[]
+  ticketIntents   TicketIntent[]
+}
+
+enum EventStatus {
+  unmoderated
+  active
+  private
+}
+
+model EventComment {
+  id        String   @id @default(cuid())
+  event     Event    @relation(fields: [eventId], references: [id])
+  eventId   String
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  rating    Float    @default(0.00)
+  message   String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model EventResource {
+  id        String   @id @default(cuid())
+  event     Event    @relation(fields: [eventId], references: [id])
+  eventId   String
+  height    Int      @default(200)
+  width     Int      @default(100)
+  url       String
+  isPoster  Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model TicketIntent {
+  id        String             @id
+  event     Event              @relation(fields: [eventId], references: [id])
+  eventId   String
+  user      User               @relation(fields: [userId], references: [id])
+  userId    String
+  status    TicketIntentStatus
+  createdAt DateTime           @default(now())
+  updatedAt DateTime           @updatedAt
+}
+
+enum TicketIntentStatus {
+  failed
+  progress
+  succeed
+}
+
+model UsersOnEvent {
+  event    Event    @relation(fields: [eventId], references: [id])
+  eventId  String
+  user     User     @relation(fields: [userId], references: [id])
+  userId   String
+  joinedAt DateTime @default(now())
+
+  @@id([userId, eventId])
+}
+
+model SpeakersOnEvent {
+  event     Event    @relation(fields: [eventId], references: [id])
+  eventId   String
+  speaker   Speaker  @relation(fields: [speakerId], references: [id])
+  speakerId String
+  joinedAt  DateTime @default(now())
+
+  @@id([speakerId, eventId])
+}
+
+model Place {
+  id             String              @id @default(cuid())
+  name           String              @default("Place")
+  owner          User                @relation(fields: [ownerId], references: [id])
+  ownerId        String
+  private        Boolean?            @default(true)
+  tel            String?             @db.VarChar(255)
+  location       String              @db.VarChar(255)
+  coordsLat      Float               @db.Real
+  coordsLng      Float               @db.Real
+  Event          Event[]
+  organization   Organization?       @relation(fields: [organizationId], references: [id])
+  organizationId String?
+  capacity       Int?
+  openingHours   PlaceOpeningHours[]
+  resources      PlaceResource[]
+  comments       PlaceComment[]
+  createdAt      DateTime            @default(now())
+  updatedAt      DateTime            @updatedAt
+}
+
+model PlaceOpeningHours {
+  id        String       @id @default(cuid())
+  place     Place        @relation(fields: [placeId], references: [id])
+  placeId   String
+  day       DayOfTheWeek
+  openTime  DateTime
+  closeTime DateTime
+}
+
+enum DayOfTheWeek {
+  MONDAY
+  TUESDAY
+  WEDNESDAY
+  THURSDAY
+  FRIDAY
+  SATURDAY
+  SUNDAY
+}
+
+model PlaceComment {
+  id        String   @id @default(cuid())
+  place     Place    @relation(fields: [placeId], references: [id])
+  placeId   String
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  rating    Float    @default(0.00)
+  message   String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model PlaceResource {
+  id        String   @id @default(cuid())
+  place     Place    @relation(fields: [placeId], references: [id])
+  placeId   String
+  height    Int      @default(200)
+  width     Int      @default(100)
+  url       String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Organization {
+  id     String  @id @default(cuid())
+  name   String
+  places Place[]
+}

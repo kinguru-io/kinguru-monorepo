@@ -43,3 +43,5 @@ jspm_packages/
 !/tsconfig.json
 next-env.d.ts
 .env*
+!/postcss.config.js
+!.env

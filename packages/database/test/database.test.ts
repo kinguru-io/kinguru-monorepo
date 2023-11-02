@@ -1,5 +1,5 @@
-import { Hello } from "../src";
+import { prisma } from "../src";
 
-test("hello", () => {
-  expect(new Hello().sayHello()).toBe("hello, world!");
+test("prisma", () => {
+  expect(prisma).toBeTruthy();
 });
