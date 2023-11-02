@@ -9,7 +9,7 @@ const monorepo = new TurborepoTsProject({
   authorName: "Maksim Yersh",
   authorEmail: "yersh.maks@gmail.com",
   authorUrl: "yer.sh",
-  repository: "https://github.com/edelwud/kinguru-monorepo",
+  repository: "https://github.com/kinguru-io/kinguru-monorepo",
   defaultReleaseBranch: "main",
 
   autoMerge: true,
