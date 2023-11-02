@@ -15,12 +15,15 @@ const monorepo = new TurborepoTsProject({
   autoMerge: true,
   autoApproveUpgrades: true,
   autoApproveOptions: {
-    allowedUsernames: ["edelwud", "github-actions[bot]"],
+    allowedUsernames: ["edelwud", "github-actions[bot]", "dependabot[bot]"],
   },
   pnpmVersion: "8",
   minNodeVersion: "20.9.0",
   workflowPackageCache: true,
   dependabot: true,
+  dependabotOptions: {
+    ignoreProjen: false,
+  },
 
   projenrcTs: true,
   prettier: true,
