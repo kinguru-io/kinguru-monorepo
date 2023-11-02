@@ -33,6 +33,7 @@ jspm_packages/
 .cache
 .env
 !/.projenrc.js
+!/.github/dependabot.yml
 !/.github/pull_request_template.md
 !/.prettierignore
 !/.prettierrc.json
