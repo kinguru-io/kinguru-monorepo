@@ -55,7 +55,7 @@ importers:
         version: 3.0.3
       projen:
         specifier: ^0.76.17
-        version: 0.76.18(constructs@10.3.0)
+        version: 0.76.23(constructs@10.3.0)
       ts-node:
         specifier: ^10.9.1
         version: 10.9.1(@types/node@20.8.10)(typescript@5.2.2)
@@ -3877,7 +3877,7 @@ packages:
     resolution: {integrity: sha512-TEYxYcYpMzpnlGrU5qGHONb7dBGKdO2hnysMIJMMnMLUKa9Y6T05TrIiDJFtkQXcPAGm4EjxlocuHSEWloBq5A==}
     engines: {node: '>= 20.9.0'}
     dependencies:
-      projen: 0.76.18(constructs@10.3.0)
+      projen: 0.76.23(constructs@10.3.0)
     transitivePeerDependencies:
       - constructs
     dev: true
@@ -3889,7 +3889,7 @@ packages:
       '@changesets/types': 5.2.1
       '@turbo/types': 1.10.16
       lodash: 4.17.21
-      projen: 0.76.18(constructs@10.3.0)
+      projen: 0.76.23(constructs@10.3.0)
     transitivePeerDependencies:
       - constructs
     dev: true
@@ -8348,8 +8348,8 @@ packages:
       - yaml
       - yargs
 
-  /projen@0.76.18(constructs@10.3.0):
-    resolution: {integrity: sha512-nzDhs4GUuiKjgkhDrMA/QFjlBnYUstuth3AfLgp2C5rUofDzLHu3cWVnIq2E/qXxE9FS9VP4bTlQgBZV3C3+/Q==}
+  /projen@0.76.23(constructs@10.3.0):
+    resolution: {integrity: sha512-Svtho6I8YBR5P03VFnkNUGPk9SA8A9mKI3osInzav6SfeeKh7kcI/9XNyUda3DTmxUfsLMZrVwLszJd0EvWJZQ==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     peerDependencies:
