@@ -142,13 +142,13 @@
           "exec": "pnpm update npm-check-updates"
         },
         {
-          "exec": "npm-check-updates --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=@types/node,@types/react,@types/react-dom,@typescript-eslint/eslint-plugin,@typescript-eslint/parser,autoprefixer,constructs,eslint-config-next,eslint-config-prettier,eslint-import-resolver-node,eslint-import-resolver-typescript,eslint-plugin-import,eslint-plugin-prettier,eslint-plugin-tailwindcss,npm-check-updates,postcss,prettier,projen,tailwindcss,typescript,eslint,@nextui-org/react,framer-motion,next,react,react-dom"
+          "exec": "npm-check-updates --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=@types/node,@types/react,@types/react-dom,@typescript-eslint/eslint-plugin,@typescript-eslint/parser,autoprefixer,constructs,eslint-config-next,eslint-config-prettier,eslint-import-resolver-node,eslint-import-resolver-typescript,eslint-plugin-import,eslint-plugin-prettier,eslint-plugin-tailwindcss,npm-check-updates,postcss,prettier,projen,tailwindcss,typescript,eslint,@nextui-org/react,framer-motion,next,next-auth,nodemailer,react,react-dom,stripe"
         },
         {
           "exec": "pnpm i --no-frozen-lockfile"
         },
         {
-          "exec": "pnpm update @types/node @types/react @types/react-dom @typescript-eslint/eslint-plugin @typescript-eslint/parser autoprefixer constructs eslint-config-next eslint-config-prettier eslint-import-resolver-node eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-prettier eslint-plugin-tailwindcss npm-check-updates postcss prettier projen tailwindcss typescript eslint @nextui-org/react framer-motion next react react-dom"
+          "exec": "pnpm update @types/node @types/react @types/react-dom @typescript-eslint/eslint-plugin @typescript-eslint/parser autoprefixer constructs eslint-config-next eslint-config-prettier eslint-import-resolver-node eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-prettier eslint-plugin-tailwindcss npm-check-updates postcss prettier projen tailwindcss typescript eslint @nextui-org/react framer-motion next next-auth nodemailer react react-dom stripe"
         },
         {
           "exec": "npx projen"

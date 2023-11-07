@@ -64,7 +64,22 @@ const web = new NextJsTsProject({
   prettier: true,
   nextui: true,
 
-  deps: ["database@*"],
+  tsconfig: {
+    compilerOptions: {
+      paths: {
+        "~/*": ["./public/*"],
+        "@/*": ["./src/*"],
+      },
+    },
+  },
+
+  deps: [
+    "database@*",
+    "next-auth",
+    "next-intl@3.0.0-beta.19",
+    "nodemailer",
+    "stripe",
+  ],
 });
 
 database.preCompileTask.exec("npx prisma generate");

@@ -45,8 +45,12 @@
     "database": "workspace:*",
     "framer-motion": "^10.16.4",
     "next": "^14.0.1",
+    "next-auth": "^4.24.4",
+    "next-intl": "3.0.0-beta.19",
+    "nodemailer": "^6.9.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "stripe": "^14.3.0"
   },
   "engines": {
     "node": ">= 18.17.0"

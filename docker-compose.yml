@@ -1,6 +1,17 @@
 services:
   web:
     image: $WERF_WEB_DOCKER_IMAGE_NAME
+    build:
+      dockerfile: apps/web/Dockerfile
+      context: .
     restart: always
     ports:
       - "3000:3000"
+  db:
+    image: debezium/postgres:16-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: kinguru
+      POSTGRES_PASSWORD: qwerty
+      POSTGRES_DB: kinguru

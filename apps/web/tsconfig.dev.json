@@ -33,7 +33,15 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "incremental": true
+    "incremental": true,
+    "paths": {
+      "~/*": [
+        "./public/*"
+      ],
+      "@/*": [
+        "./src/*"
+      ]
+    }
   },
   "include": [
     ".projenrc.js",

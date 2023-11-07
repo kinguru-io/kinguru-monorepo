@@ -108,11 +108,28 @@
       "type": "runtime"
     },
     {
+      "name": "next-auth",
+      "type": "runtime"
+    },
+    {
+      "name": "next-intl",
+      "version": "3.0.0-beta.19",
+      "type": "runtime"
+    },
+    {
+      "name": "nodemailer",
+      "type": "runtime"
+    },
+    {
       "name": "react",
       "type": "runtime"
     },
     {
       "name": "react-dom",
+      "type": "runtime"
+    },
+    {
+      "name": "stripe",
       "type": "runtime"
     }
   ],
