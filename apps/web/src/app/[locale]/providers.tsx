@@ -1,6 +1,5 @@
 "use client";
 
-import { NextUIProvider } from "@nextui-org/react";
 import { NextIntlClientProvider } from "next-intl";
 import { ReactNode } from "react";
 
@@ -16,7 +15,7 @@ export async function Providers({
 }) {
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <NextUIProvider>{children}</NextUIProvider>
+      {children}
     </NextIntlClientProvider>
   );
 }

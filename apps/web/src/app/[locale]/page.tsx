@@ -1,11 +1,12 @@
+import { BrandButton } from "@kinguru/uikit";
+import "@kinguru/uikit/lib/kuma.css";
+import { Box } from "@kuma-ui/core";
 import React from "react";
-import { Button, Input } from "@/lib/uikit";
 
 export default async function Page() {
   return (
-    <>
-      <Button>Hello</Button>
-      <Input type="email" label="Email" />
-    </>
+    <Box p={8} bg="blue" color="white">
+      <BrandButton>HEHE</BrandButton>
+    </Box>
   );
 }

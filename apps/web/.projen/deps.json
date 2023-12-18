@@ -24,10 +24,6 @@
       "type": "build"
     },
     {
-      "name": "autoprefixer",
-      "type": "build"
-    },
-    {
       "name": "constructs",
       "version": "^10.0.0",
       "type": "build"
@@ -57,16 +53,8 @@
       "type": "build"
     },
     {
-      "name": "eslint-plugin-tailwindcss",
-      "type": "build"
-    },
-    {
       "name": "npm-check-updates",
       "version": "^16",
-      "type": "build"
-    },
-    {
-      "name": "postcss",
       "type": "build"
     },
     {
@@ -75,10 +63,6 @@
     },
     {
       "name": "projen",
-      "type": "build"
-    },
-    {
-      "name": "tailwindcss",
       "type": "build"
     },
     {
@@ -91,16 +75,21 @@
       "type": "devenv"
     },
     {
-      "name": "@nextui-org/react",
+      "name": "@kinguru/uikit",
+      "version": "*",
+      "type": "runtime"
+    },
+    {
+      "name": "@kuma-ui/core",
+      "type": "runtime"
+    },
+    {
+      "name": "@kuma-ui/next-plugin",
       "type": "runtime"
     },
     {
       "name": "database",
       "version": "*",
-      "type": "runtime"
-    },
-    {
-      "name": "framer-motion",
       "type": "runtime"
     },
     {
@@ -118,6 +107,10 @@
     },
     {
       "name": "nodemailer",
+      "type": "runtime"
+    },
+    {
+      "name": "normalize.css",
       "type": "runtime"
     },
     {

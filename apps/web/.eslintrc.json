@@ -20,7 +20,6 @@
     "plugin:import/typescript",
     "prettier",
     "plugin:prettier/recommended",
-    "plugin:tailwindcss/recommended",
     "next/core-web-vitals"
   ],
   "settings": {

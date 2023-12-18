@@ -1,7 +1,7 @@
 import { NextJsTsProject } from "@yersh/projen-nextjs";
 import { TurborepoTsProject } from "@yersh/projen-turborepo";
 import { DependencyType } from "projen";
-import { NodePackageManager } from "projen/lib/javascript";
+import { NodePackageManager, TypeScriptJsxMode } from "projen/lib/javascript";
 import { TypeScriptProject } from "projen/lib/typescript";
 
 const monorepo = new TurborepoTsProject({
@@ -62,7 +62,6 @@ const web = new NextJsTsProject({
 
   eslint: true,
   prettier: true,
-  nextui: true,
 
   tsconfig: {
     compilerOptions: {
@@ -71,16 +70,72 @@ const web = new NextJsTsProject({
         "@/*": ["./src/*"],
       },
     },
+    include: ["./kuma.config.ts", "src/**/*.tsx"],
   },
 
   deps: [
+    "@kuma-ui/core",
+    "@kuma-ui/next-plugin",
+    "normalize.css",
+    "@kinguru/uikit@*",
+
     "database@*",
     "next-auth",
     "next-intl@3.0.0-beta.19",
     "nodemailer",
     "stripe",
   ],
+
+  devDeps: [],
 });
+
+const uikit = new TypeScriptProject({
+  parent: monorepo,
+  name: "@kinguru/uikit",
+  outdir: "packages/uikit",
+  defaultReleaseBranch: "main",
+  packageManager: NodePackageManager.PNPM,
+
+  eslint: true,
+  prettier: true,
+
+  tsconfig: {
+    compilerOptions: {
+      jsx: TypeScriptJsxMode.REACT,
+      declaration: true,
+    },
+    include: ["src/**/*.ts", "src/**/*.tsx"],
+  },
+
+  deps: ["@kuma-ui/core", "normalize.css", "react"],
+  devDeps: [
+    "@babel/core",
+    "@babel/preset-env",
+    "@babel/preset-react",
+    "@babel/preset-typescript",
+    "babel-loader",
+    "css-loader",
+    "@kuma-ui/webpack-plugin",
+    "mini-css-extract-plugin",
+    "webpack",
+    "webpack-cli",
+    "@types/react",
+    "@types/react-dom",
+    "@storybook/addon-essentials",
+    "@storybook/addon-interactions",
+    "@storybook/addon-links",
+    "@storybook/addon-onboarding",
+    "@storybook/blocks",
+    "@storybook/react",
+    "@storybook/react-webpack5",
+    "@storybook/test",
+    "eslint-plugin-storybook",
+    "storybook",
+  ],
+});
+
+uikit.postCompileTask.exec("npx webpack");
+uikit.tasks.addTask("storybook", { exec: "npx storybook dev -p 5000" });
 
 database.preCompileTask.exec("npx prisma generate");
 
@@ -89,7 +144,7 @@ database.preCompileTask.exec("npx prisma generate");
   project.gitignore.include(".env");
 });
 
-[monorepo, web, database].forEach((project) => {
+[monorepo, web, database, uikit].forEach((project) => {
   project.deps.removeDependency("eslint");
   project.deps.addDependency("eslint@^7", DependencyType.DEVENV);
 });

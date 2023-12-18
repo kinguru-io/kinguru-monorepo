@@ -47,8 +47,8 @@
     ".projenrc.js",
     "src/**/*.ts",
     "test/**/*.ts",
-    "**/*.ts",
-    "**/*.tsx"
+    "./kuma.config.ts",
+    "src/**/*.tsx"
   ],
   "exclude": [
     "node_modules"

@@ -3,3 +3,4 @@
 packages:
   - packages/database
   - apps/web
+  - packages/uikit

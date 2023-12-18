@@ -1,10 +1,11 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { KumaRegistry } from "@kuma-ui/next-plugin/registry";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ReactNode } from "react";
 import { Providers } from "@/app/[locale]/providers";
+import "normalize.css/normalize.css";
 import "./globals.css";
-import { auth } from "@/auth";
-import { Navbar } from "@/lib/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -33,11 +34,10 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className="kinguru">
-        <Providers params={{ locale, messages }}>
-          <Navbar />
-          {children}
-        </Providers>
+      <body>
+        <KumaRegistry>
+          <Providers params={{ locale, messages }}>{children}</Providers>
+        </KumaRegistry>
       </body>
     </html>
   );
