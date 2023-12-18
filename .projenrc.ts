@@ -101,10 +101,11 @@ const uikit = new TypeScriptProject({
 
   tsconfig: {
     compilerOptions: {
+      lib: ["es2019", "dom"],
       jsx: TypeScriptJsxMode.REACT,
       declaration: true,
     },
-    include: ["src/**/*.ts", "src/**/*.tsx"],
+    include: ["src/**/*.tsx"],
   },
 
   deps: ["@kuma-ui/core", "normalize.css", "react"],
