@@ -22,5 +22,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
       - uses: pnpm/action-setup@v2.4.0
+        with:
+          version: "8"
       - name: Run changesets-renovate
         run: pnpm dlx @scaleway/changesets-renovate
