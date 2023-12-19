@@ -30,7 +30,7 @@
     "@types/node": "^20",
     "@typescript-eslint/eslint-plugin": "^6",
     "@typescript-eslint/parser": "^6",
-    "@yersh/projen-nextjs": "0.1.1",
+    "@yersh/projen-nextjs": "0.1.2",
     "@yersh/projen-turborepo": "0.1.7",
     "constructs": "^10.0.0",
     "eslint": "^7",
