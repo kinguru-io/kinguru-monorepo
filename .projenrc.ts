@@ -12,6 +12,8 @@ const monorepo = new TurborepoTsProject({
   repository: "https://github.com/kinguru-io/kinguru-monorepo",
   defaultReleaseBranch: "main",
 
+  renovatebot: true,
+
   autoMerge: true,
   autoApproveUpgrades: true,
   autoApproveOptions: {

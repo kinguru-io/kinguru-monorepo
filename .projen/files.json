@@ -20,6 +20,7 @@
     ".projen/tasks.json",
     "LICENSE",
     "pnpm-workspace.yaml",
+    "renovate.json5",
     "tsconfig.dev.json",
     "tsconfig.json",
     "turbo.json"
