@@ -42,13 +42,13 @@
     "@kuma-ui/next-plugin": "1.1.14",
     "database": "workspace:*",
     "next": "14.0.1",
-    "next-auth": "4.24.4",
+    "next-auth": "4.24.5",
     "next-intl": "3.3.2",
     "nodemailer": "6.9.7",
     "normalize.css": "8.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "stripe": "14.3.0"
+    "stripe": "14.9.0"
   },
   "engines": {
     "node": ">= 18.17.0"
