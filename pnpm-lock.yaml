@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@changesets/changelog-github':
-        specifier: ^0.4.8
-        version: 0.4.8
+        specifier: ^0.5.0
+        version: 0.5.0
       '@changesets/cli':
         specifier: ^2.26.2
         version: 2.26.2
@@ -87,8 +87,8 @@ importers:
         specifier: ^4.24.4
         version: 4.24.4(next@14.0.1)(nodemailer@6.9.7)(react-dom@18.2.0)(react@18.2.0)
       next-intl:
-        specifier: 3.0.0-beta.19
-        version: 3.0.0-beta.19(next@14.0.1)(react@18.2.0)
+        specifier: 3.3.2
+        version: 3.3.2(next@14.0.1)(react@18.2.0)
       nodemailer:
         specifier: ^6.9.7
         version: 6.9.7
@@ -143,13 +143,13 @@ importers:
         version: 2.29.0(@typescript-eslint/parser@6.9.1)(eslint-import-resolver-typescript@3.6.1)(eslint@7.32.0)
       eslint-plugin-prettier:
         specifier: ^5.0.1
-        version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@7.32.0)(prettier@3.0.3)
+        version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@7.32.0)(prettier@3.1.1)
       npm-check-updates:
         specifier: ^16
         version: 16.14.6
       prettier:
-        specifier: ^3.0.3
-        version: 3.0.3
+        specifier: ^3.1.1
+        version: 3.1.1
       projen:
         specifier: ^0.76.17
         version: 0.76.17(constructs@10.3.0)
@@ -322,7 +322,7 @@ importers:
         version: 2.29.0(@typescript-eslint/parser@6.10.0)(eslint-import-resolver-typescript@3.6.1)(eslint@7.32.0)
       eslint-plugin-prettier:
         specifier: ^5.0.1
-        version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@7.32.0)(prettier@3.0.3)
+        version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@7.32.0)(prettier@3.1.1)
       eslint-plugin-storybook:
         specifier: ^0.6.15
         version: 0.6.15(eslint@7.32.0)(typescript@5.2.2)
@@ -339,8 +339,8 @@ importers:
         specifier: ^16
         version: 16.14.6
       prettier:
-        specifier: ^3.0.3
-        version: 3.0.3
+        specifier: ^3.1.1
+        version: 3.1.1
       projen:
         specifier: ^0.76.23
         version: 0.76.23(constructs@10.3.0)
@@ -1679,11 +1679,11 @@ packages:
       '@changesets/types': 5.2.1
     dev: true
 
-  /@changesets/changelog-github@0.4.8:
-    resolution: {integrity: sha512-jR1DHibkMAb5v/8ym77E4AMNWZKB5NPzw5a5Wtqm1JepAuIF+hrKp2u04NKM14oBZhHglkCfrla9uq8ORnK/dw==}
+  /@changesets/changelog-github@0.5.0:
+    resolution: {integrity: sha512-zoeq2LJJVcPJcIotHRJEEA2qCqX0AQIeFE+L21L8sRLPVqDhSXY8ZWAt2sohtBpFZkBwu+LUwMSKRr2lMy3LJA==}
     dependencies:
-      '@changesets/get-github-info': 0.5.2
-      '@changesets/types': 5.2.1
+      '@changesets/get-github-info': 0.6.0
+      '@changesets/types': 6.0.0
       dotenv: 8.6.0
     transitivePeerDependencies:
       - encoding
@@ -1756,8 +1756,8 @@ packages:
       semver: 7.5.4
     dev: true
 
-  /@changesets/get-github-info@0.5.2:
-    resolution: {integrity: sha512-JppheLu7S114aEs157fOZDjFqUDpm7eHdq5E8SSR0gUBTEK0cNSHsrSR5a66xs0z3RWuo46QvA3vawp8BxDHvg==}
+  /@changesets/get-github-info@0.6.0:
+    resolution: {integrity: sha512-v/TSnFVXI8vzX9/w3DU2Ol+UlTZcu3m0kXTjTT4KlAdwSvwutcByYwyYn9hwerPWfPkT2JfpoX0KgvCEi8Q/SA==}
     dependencies:
       dataloader: 1.4.0
       node-fetch: 2.7.0
@@ -1835,6 +1835,10 @@ packages:
 
   /@changesets/types@5.2.1:
     resolution: {integrity: sha512-myLfHbVOqaq9UtUKqR/nZA/OY7xFjQMdfgfqeZIBK4d0hA6pgxArvdv8M+6NUzzBsjWLOtvApv8YHr4qM+Kpfg==}
+    dev: true
+
+  /@changesets/types@6.0.0:
+    resolution: {integrity: sha512-b1UkfNulgKoWfqyHtzKS5fOZYSJO+77adgL7DLRDr+/7jhChN+QcHnbjiQVOz/U+Ts3PGNySq7diAItzDgugfQ==}
     dev: true
 
   /@changesets/write@0.2.3:
@@ -11029,18 +11033,17 @@ packages:
       uuid: 8.3.2
     dev: false
 
-  /next-intl@3.0.0-beta.19(next@14.0.1)(react@18.2.0):
-    resolution: {integrity: sha512-F9ZZ342rDUJE3hOD2ZkKtkbeJNNUQtorN0Wnr2gThgLeeyKchbwm5KgijK4gOU66Yw91V1lRuGEcV6BMJdSaxg==}
+  /next-intl@3.3.2(next@14.0.1)(react@18.2.0):
+    resolution: {integrity: sha512-iIuIa6UULhClCpXGv/L05vJzAYEXbpMf1SrjSDwbtnFJP3mDjG6rBkffiEIqawfizGzUjnYf5r3GtptRL6MIBg==}
     peerDependencies:
-      next: ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0
+      next: ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
       '@formatjs/intl-localematcher': 0.2.32
       negotiator: 0.6.3
       next: 14.0.1(@babel/core@7.23.2)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
-      server-only: 0.0.1
-      use-intl: 3.0.0-beta.3(react@18.2.0)
+      use-intl: 3.3.2(react@18.2.0)
     dev: false
 
   /next@14.0.1(@babel/core@7.23.2)(react-dom@18.2.0)(react@18.2.0):
@@ -12863,10 +12866,6 @@ packages:
       - supports-color
     dev: true
 
-  /server-only@0.0.1:
-    resolution: {integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==}
-    dev: false
-
   /set-blocking@2.0.0:
     resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
     dev: true
@@ -14164,8 +14163,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /use-intl@3.0.0-beta.3(react@18.2.0):
-    resolution: {integrity: sha512-b5c9F6F3Yw7xbdIVdDBj2qh5BHntdr2Obp3c40OTxXOwqDIyjAbOxjezGe7ak8EGo0TEezyN6oPvi6aQWPjDdQ==}
+  /use-intl@3.3.2(react@18.2.0):
+    resolution: {integrity: sha512-9m16djCkEbdYt6PBQH2uX+pfZFkMhowmmSqXsysdYWXP11ggKNtRMqknBM4CJTQvtNq25ajSEoZOu8ii4lr8pw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
