@@ -40,33 +40,6 @@
       ]
     },
     {
-      "labels": [
-        "UPDATE-MAJOR"
-      ],
-      "stabilityDays": 14,
-      "matchUpdateTypes": [
-        "major"
-      ]
-    },
-    {
-      "labels": [
-        "UPDATE-MINOR"
-      ],
-      "stabilityDays": 5,
-      "matchUpdateTypes": [
-        "minor"
-      ]
-    },
-    {
-      "labels": [
-        "UPDATE-PATCH"
-      ],
-      "stabilityDays": 1,
-      "matchUpdateTypes": [
-        "patch"
-      ]
-    },
-    {
       "matchDepTypes": [
         "engines"
       ],

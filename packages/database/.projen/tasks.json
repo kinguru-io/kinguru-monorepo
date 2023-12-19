@@ -30,6 +30,22 @@
         }
       ]
     },
+    "db:generate": {
+      "name": "db:generate",
+      "steps": [
+        {
+          "exec": "prisma generate"
+        }
+      ]
+    },
+    "db:push": {
+      "name": "db:push",
+      "steps": [
+        {
+          "exec": "prisma generate"
+        }
+      ]
+    },
     "default": {
       "name": "default",
       "description": "Synthesize project files",
@@ -92,7 +108,7 @@
       "description": "Prepare the project for compilation",
       "steps": [
         {
-          "exec": "npx prisma generate"
+          "spawn": "db:generate"
         }
       ]
     },

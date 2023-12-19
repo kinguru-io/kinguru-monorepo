@@ -39,21 +39,6 @@ const monorepo = new TurborepoTsProject({
           "matchUpdateTypes": ["minor", "patch"]
         },
         {
-          "labels": ["UPDATE-MAJOR"],
-          "stabilityDays": 14,
-          "matchUpdateTypes": ["major"]
-        },
-        {
-          "labels": ["UPDATE-MINOR"],
-          "stabilityDays": 5,
-          "matchUpdateTypes": ["minor"]
-        },
-        {
-          "labels": ["UPDATE-PATCH"],
-          "stabilityDays": 1,
-          "matchUpdateTypes": ["patch"]
-        },
-        {
           "matchDepTypes": ["engines"],
           "rangeStrategy": "widen"
         }
@@ -77,13 +62,34 @@ const monorepo = new TurborepoTsProject({
   projenrcTs: true,
   prettier: true,
 
-  devDeps: ["@yersh/projen-turborepo", "@yersh/projen-nextjs", "eslint@^7"],
+  devDeps: ["@yersh/projen-turborepo", "@yersh/projen-nextjs"],
 
   gitignore: [".env", "out"],
 
   turborepo: {
     pipeline: {
-      dev: {},
+      dev: {
+        dependsOn: ["^db:generate"],
+        cache: false
+      },
+      build: {
+        dependsOn: [
+          "^build",
+          "^db:generate"
+        ],
+        outputs: [
+          ".next/**",
+          "!.next/cache/**",
+          "dist/**",
+          "lib/**"
+        ]
+      },
+      "db:generate": {
+        cache: false
+      },
+      "db:push": {
+        cache: false
+      },
     },
   },
 });
@@ -187,7 +193,11 @@ const uikit = new TypeScriptProject({
 uikit.postCompileTask.exec("npx webpack");
 uikit.tasks.addTask("storybook", { exec: "npx storybook dev -p 5000" });
 
-database.preCompileTask.exec("npx prisma generate");
+const dbGenerate = database.tasks.addTask("db:generate", { exec: "prisma generate" });
+database.tasks.addTask("db:push", { exec: "prisma generate" });
+database.preCompileTask.spawn(dbGenerate);
+
+monorepo.npmrc.addConfig("public-hoist-pattern[]", "*prisma*");
 
 [web, database].forEach((project) => {
   project.package.addField("private", true);

@@ -3,6 +3,8 @@
   "scripts": {
     "build": "npx projen build",
     "compile": "npx projen compile",
+    "db:generate": "npx projen db:generate",
+    "db:push": "npx projen db:push",
     "default": "npx projen default",
     "eslint": "npx projen eslint",
     "package": "npx projen package",
