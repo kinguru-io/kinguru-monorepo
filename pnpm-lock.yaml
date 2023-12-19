@@ -143,13 +143,13 @@ importers:
         version: 2.29.0(@typescript-eslint/parser@6.9.1)(eslint-import-resolver-typescript@3.6.1)(eslint@7.32.0)
       eslint-plugin-prettier:
         specifier: ^5.0.1
-        version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@7.32.0)(prettier@3.0.3)
+        version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@7.32.0)(prettier@3.1.1)
       npm-check-updates:
         specifier: ^16
         version: 16.14.6
       prettier:
-        specifier: ^3.0.3
-        version: 3.0.3
+        specifier: ^3.1.1
+        version: 3.1.1
       projen:
         specifier: ^0.76.17
         version: 0.76.17(constructs@10.3.0)
@@ -322,7 +322,7 @@ importers:
         version: 2.29.0(@typescript-eslint/parser@6.10.0)(eslint-import-resolver-typescript@3.6.1)(eslint@7.32.0)
       eslint-plugin-prettier:
         specifier: ^5.0.1
-        version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@7.32.0)(prettier@3.0.3)
+        version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@7.32.0)(prettier@3.1.1)
       eslint-plugin-storybook:
         specifier: ^0.6.15
         version: 0.6.15(eslint@7.32.0)(typescript@5.2.2)
@@ -339,8 +339,8 @@ importers:
         specifier: ^16
         version: 16.14.6
       prettier:
-        specifier: ^3.0.3
-        version: 3.0.3
+        specifier: ^3.1.1
+        version: 3.1.1
       projen:
         specifier: ^0.76.23
         version: 0.76.23(constructs@10.3.0)
