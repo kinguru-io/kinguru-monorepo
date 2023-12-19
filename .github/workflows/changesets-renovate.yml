@@ -17,13 +17,11 @@ jobs:
         with:
           fetch-depth: 2
           ref: ${{ github.head_ref }}
+          token: ${{ secrets.PROJEN_GITHUB_TOKEN }}
       - name: Git Identity
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
-        env:
-          GITHUB_TOKEN: ${{ secrets.PROJEN_GITHUB_TOKEN }}
       - uses: pnpm/action-setup@v2.4.0
         with:
           version: "8"
