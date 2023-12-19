@@ -69,7 +69,7 @@ importers:
   apps/web:
     dependencies:
       '@kinguru/uikit':
-        specifier: ^0.0.0
+        specifier: ^0.0.1
         version: link:../../packages/uikit
       '@kuma-ui/core':
         specifier: ^1.5.4
