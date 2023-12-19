@@ -145,8 +145,8 @@ importers:
         specifier: 5.0.1
         version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@7.32.0)(prettier@3.1.1)
       npm-check-updates:
-        specifier: 16.14.6
-        version: 16.14.6
+        specifier: 16.14.12
+        version: 16.14.12
       prettier:
         specifier: 3.1.1
         version: 3.1.1
@@ -209,8 +209,8 @@ importers:
         specifier: 15.0.0
         version: 15.0.0
       npm-check-updates:
-        specifier: 16.14.6
-        version: 16.14.6
+        specifier: 16.14.12
+        version: 16.14.12
       prettier:
         specifier: 3.1.1
         version: 3.1.1
@@ -336,8 +336,8 @@ importers:
         specifier: 2.7.6
         version: 2.7.6(webpack@5.89.0)
       npm-check-updates:
-        specifier: 16.14.6
-        version: 16.14.6
+        specifier: 16.14.12
+        version: 16.14.12
       prettier:
         specifier: 3.1.1
         version: 3.1.1
@@ -11226,8 +11226,8 @@ packages:
       npm-normalize-package-bin: 3.0.1
     dev: true
 
-  /npm-check-updates@16.14.6:
-    resolution: {integrity: sha512-sJ6w4AmSDP7YzBXah94Ul2JhiIbjBDfx9XYgib15um2wtiQkOyjE7Lov3MNUSQ84Ry7T81mE4ynMbl/mGbK4HQ==}
+  /npm-check-updates@16.14.12:
+    resolution: {integrity: sha512-5FvqaDX8AqWWTDQFbBllgLwoRXTvzlqVIRSKl9Kg8bYZTfNwMnrp1Zlmb5e/ocf11UjPTc+ShBFjYQ7kg6FL0w==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
