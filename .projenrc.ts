@@ -13,6 +13,53 @@ const monorepo = new TurborepoTsProject({
   defaultReleaseBranch: "main",
 
   renovatebot: true,
+  renovatebotOptions: {
+    overrideConfig: {
+      "enabledManagers": ["npm"],
+      "extends": ["config:base", ":combinePatchMinorReleases"],
+      "prHourlyLimit": 5,
+      "prConcurrentLimit": 10,
+      "labels": ["auto-approve"],
+      "rangeStrategy": "pin",
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "deps",
+      "packageRules": [
+        {
+          "matchDepTypes": ["engines", "peerDependencies"],
+          "versionStrategy": "widen"
+        },
+        {
+          "semanticCommitScope": "devDeps",
+          "matchDepTypes": ["packageManager", "devDependencies"],
+          "matchUpdateTypes": ["major"]
+        },
+        {
+          "semanticCommitScope": "devDeps",
+          "matchDepTypes": ["packageManager", "devDependencies"],
+          "matchUpdateTypes": ["minor", "patch"]
+        },
+        {
+          "labels": ["UPDATE-MAJOR"],
+          "stabilityDays": 14,
+          "matchUpdateTypes": ["major"]
+        },
+        {
+          "labels": ["UPDATE-MINOR"],
+          "stabilityDays": 5,
+          "matchUpdateTypes": ["minor"]
+        },
+        {
+          "labels": ["UPDATE-PATCH"],
+          "stabilityDays": 1,
+          "matchUpdateTypes": ["patch"]
+        },
+        {
+          "matchDepTypes": ["engines"],
+          "rangeStrategy": "widen"
+        }
+      ]
+    }
+  },
 
   autoMerge: true,
   autoApproveUpgrades: true,
