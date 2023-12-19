@@ -69,7 +69,7 @@ importers:
   apps/web:
     dependencies:
       '@kinguru/uikit':
-        specifier: ^0.0.1
+        specifier: ^0.0.2
         version: link:../../packages/uikit
       '@kuma-ui/core':
         specifier: ^1.5.4
@@ -145,7 +145,7 @@ importers:
         specifier: ^5.0.1
         version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@7.32.0)(prettier@3.1.1)
       npm-check-updates:
-        specifier: ^16
+        specifier: ^16.14.6
         version: 16.14.6
       prettier:
         specifier: ^3.1.1
@@ -209,7 +209,7 @@ importers:
         specifier: ^15
         version: 15.0.0
       npm-check-updates:
-        specifier: ^16
+        specifier: ^16.14.6
         version: 16.14.6
       prettier:
         specifier: ^3.0.3
@@ -336,7 +336,7 @@ importers:
         specifier: ^2.7.6
         version: 2.7.6(webpack@5.89.0)
       npm-check-updates:
-        specifier: ^16
+        specifier: ^16.14.6
         version: 16.14.6
       prettier:
         specifier: ^3.1.1
