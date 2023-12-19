@@ -32,7 +32,7 @@
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-prettier": "^5.0.1",
     "npm-check-updates": "^16",
-    "prettier": "^3.0.3",
+    "prettier": "^3.1.1",
     "projen": "^0.76.17",
     "typescript": "^5.2.2"
   },
@@ -43,7 +43,7 @@
     "database": "workspace:*",
     "next": "^14.0.1",
     "next-auth": "^4.24.4",
-    "next-intl": "3.0.0-beta.19",
+    "next-intl": "3.3.2",
     "nodemailer": "^6.9.7",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
