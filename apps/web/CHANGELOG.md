@@ -1,5 +1,18 @@
 # web
 
+## 0.0.5
+
+### Patch Changes
+
+- [#48](https://github.com/kinguru-io/kinguru-monorepo/pull/48) [`54f8cef`](https://github.com/kinguru-io/kinguru-monorepo/commit/54f8cefe8717751d11af533ccc9b2e29fe9a9d03) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.45`.
+  Updated dependency `@types/react-dom` to `18.2.18`.
+
+- [#41](https://github.com/kinguru-io/kinguru-monorepo/pull/41) [`2d3422d`](https://github.com/kinguru-io/kinguru-monorepo/commit/2d3422d8b1169f297b4fce13b862651453bb52d1) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `npm-check-updates` to `^16.14.6`.
+
+- Updated dependencies [[`54f8cef`](https://github.com/kinguru-io/kinguru-monorepo/commit/54f8cefe8717751d11af533ccc9b2e29fe9a9d03), [`2d3422d`](https://github.com/kinguru-io/kinguru-monorepo/commit/2d3422d8b1169f297b4fce13b862651453bb52d1)]:
+  - @kinguru/uikit@0.0.3
+  - database@0.0.2
+
 ## 0.0.4
 
 ### Patch Changes
