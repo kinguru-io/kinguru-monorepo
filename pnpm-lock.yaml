@@ -72,8 +72,8 @@ importers:
         specifier: ^0.0.3
         version: link:../../packages/uikit
       '@kuma-ui/core':
-        specifier: 1.5.4
-        version: 1.5.4(@types/react@18.2.45)(next@14.0.4)(react@18.2.0)
+        specifier: 1.5.5
+        version: 1.5.5(@types/react@18.2.45)(next@14.0.4)(react@18.2.0)
       '@kuma-ui/next-plugin':
         specifier: 1.1.14
         version: 1.1.14(@babel/core@7.23.6)(@types/react@18.2.45)(next@14.0.4)(react@18.2.0)(webpack@5.89.0)
@@ -230,8 +230,8 @@ importers:
   packages/uikit:
     dependencies:
       '@kuma-ui/core':
-        specifier: 1.5.4
-        version: 1.5.4(@types/react@18.2.45)(next@14.0.4)(react@18.2.0)
+        specifier: 1.5.5
+        version: 1.5.5(@types/react@18.2.45)(next@14.0.4)(react@18.2.0)
       normalize.css:
         specifier: 8.0.1
         version: 8.0.1
@@ -2518,7 +2518,7 @@ packages:
     dependencies:
       '@babel/core': 7.23.6
       '@kuma-ui/compiler': 1.2.4(@types/react@18.2.45)(next@14.0.4)(react@18.2.0)
-      '@kuma-ui/core': 1.5.4(@types/react@18.2.45)(next@14.0.4)(react@18.2.0)
+      '@kuma-ui/core': 1.5.5(@types/react@18.2.45)(next@14.0.4)(react@18.2.0)
       '@kuma-ui/sheet': 1.3.0
       '@kuma-ui/system': 1.7.1
     transitivePeerDependencies:
@@ -2530,7 +2530,7 @@ packages:
   /@kuma-ui/compiler@1.2.4(@types/react@18.2.45)(next@14.0.4)(react@18.2.0):
     resolution: {integrity: sha512-SEhDVd1VgzeeKcqiNwAQK3AyjwhgjVKPrcD+yoR2R5E0VHAHGKbsIuL/0A2PlhxC+VtOzN663PSWRCLfRbzIfw==}
     dependencies:
-      '@kuma-ui/core': 1.5.4(@types/react@18.2.45)(next@14.0.4)(react@18.2.0)
+      '@kuma-ui/core': 1.5.5(@types/react@18.2.45)(next@14.0.4)(react@18.2.0)
       '@kuma-ui/sheet': 1.3.0
       '@kuma-ui/system': 1.7.1
       ts-morph: 19.0.0
@@ -2539,8 +2539,8 @@ packages:
       - next
       - react
 
-  /@kuma-ui/core@1.5.4(@types/react@18.2.45)(next@14.0.4)(react@18.2.0):
-    resolution: {integrity: sha512-9UWFr9+g99NvZZqXfKC2kcHGx8sLYIhaW8dVROz8R+ZO/e0LCnqrgHII0ITE4fLz7bMhZg/B9Kw28fKywYSkOQ==}
+  /@kuma-ui/core@1.5.5(@types/react@18.2.45)(next@14.0.4)(react@18.2.0):
+    resolution: {integrity: sha512-YiW1Xa4eQNCWNPMuIPlhhJvStDefzIR4egLgcCTJtKp76OGz+iWcFm7J+ywcBJFbdJfnFvM3MTdaYzAH9EiW0A==}
     peerDependencies:
       '@types/react': ^18.0.32
       next: '>=13.4.5'
@@ -2552,7 +2552,7 @@ packages:
         optional: true
     dependencies:
       '@kuma-ui/sheet': 1.3.0
-      '@kuma-ui/system': 1.7.1
+      '@kuma-ui/system': 1.7.2
       '@types/react': 18.2.45
       '@types/stylis': 4.2.4
       next: 14.0.4(@babel/core@7.23.6)(react-dom@18.2.0)(react@18.2.0)
@@ -2573,7 +2573,7 @@ packages:
       '@babel/preset-env': 7.23.6(@babel/core@7.23.6)
       '@babel/preset-react': 7.23.3(@babel/core@7.23.6)
       '@babel/preset-typescript': 7.23.3(@babel/core@7.23.6)
-      '@kuma-ui/core': 1.5.4(@types/react@18.2.45)(next@14.0.4)(react@18.2.0)
+      '@kuma-ui/core': 1.5.5(@types/react@18.2.45)(next@14.0.4)(react@18.2.0)
       '@kuma-ui/webpack-plugin': 1.2.6(@types/react@18.2.45)(next@14.0.4)(react@18.2.0)(webpack@5.89.0)
       '@types/react': 18.2.45
       babel-loader: 9.1.3(@babel/core@7.23.6)(webpack@5.89.0)
@@ -2593,6 +2593,12 @@ packages:
 
   /@kuma-ui/system@1.7.1:
     resolution: {integrity: sha512-ZuZRrXP+d7onFA5fnc+cbFx4V9HHlUxeaiO8GZLgqxKCWbYTuzzOSYGg2ZaBTwrOy9sdGFeki8YnmcMzwv+V1g==}
+    dependencies:
+      '@kuma-ui/sheet': 1.3.0
+      csstype: 3.1.2
+
+  /@kuma-ui/system@1.7.2:
+    resolution: {integrity: sha512-f9jsAFHHzX13gQzv4h1V3QUwpHpT9wC2JihFuX0mlFt9dOSs+0z/11kUYuGmqs7Rm/zuN5k23IHUZGV6gS5O5Q==}
     dependencies:
       '@kuma-ui/sheet': 1.3.0
       csstype: 3.1.2
