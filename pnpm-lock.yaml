@@ -27,8 +27,8 @@ importers:
         specifier: 0.1.2
         version: 0.1.2(constructs@10.3.0)
       '@yersh/projen-turborepo':
-        specifier: 0.2.0
-        version: 0.2.0(constructs@10.3.0)
+        specifier: 0.2.1
+        version: 0.2.1(constructs@10.3.0)
       constructs:
         specifier: ^10.0.0
         version: 10.3.0
@@ -5414,8 +5414,8 @@ packages:
       - constructs
     dev: true
 
-  /@yersh/projen-turborepo@0.2.0(constructs@10.3.0):
-    resolution: {integrity: sha512-zwRQcMw2ZCvRsMbm3P/JcyWMHeDEXwZRXWynhqt5VDujuowozTrLgvapNCrik3bv3pUZMuHmZuEX6Pia5mGk6Q==}
+  /@yersh/projen-turborepo@0.2.1(constructs@10.3.0):
+    resolution: {integrity: sha512-AAk4y3NKk9DDVe0cd8u93HTXR2cq8fM8qdEMqBPMmEzhS/yyDeZzJOH2hwVpQ0nXZfTsKd7CCUVi9kxIoxWG6g==}
     engines: {node: '>= 20.9.0'}
     dependencies:
       '@changesets/types': 5.2.1
