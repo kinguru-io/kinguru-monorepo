@@ -15,41 +15,46 @@ const monorepo = new TurborepoTsProject({
   renovatebot: true,
   renovatebotOptions: {
     overrideConfig: {
-      "enabledManagers": ["npm"],
-      "extends": ["config:base", ":combinePatchMinorReleases"],
-      "prHourlyLimit": 5,
-      "prConcurrentLimit": 10,
-      "labels": ["auto-approve"],
-      "rangeStrategy": "pin",
-      "semanticCommitType": "chore",
-      "semanticCommitScope": "deps",
-      "packageRules": [
+      enabledManagers: ["npm"],
+      extends: ["config:base", ":combinePatchMinorReleases"],
+      prHourlyLimit: 5,
+      prConcurrentLimit: 10,
+      labels: ["auto-approve"],
+      rangeStrategy: "pin",
+      semanticCommitType: "chore",
+      semanticCommitScope: "deps",
+      packageRules: [
         {
-          "matchDepTypes": ["engines", "peerDependencies"],
-          "versionStrategy": "widen"
+          matchDepTypes: ["engines", "peerDependencies"],
+          versionStrategy: "widen",
         },
         {
-          "semanticCommitScope": "devDeps",
-          "matchDepTypes": ["packageManager", "devDependencies"],
-          "matchUpdateTypes": ["major"]
+          semanticCommitScope: "devDeps",
+          matchDepTypes: ["packageManager", "devDependencies"],
+          matchUpdateTypes: ["major"],
         },
         {
-          "semanticCommitScope": "devDeps",
-          "matchDepTypes": ["packageManager", "devDependencies"],
-          "matchUpdateTypes": ["minor", "patch"]
+          semanticCommitScope: "devDeps",
+          matchDepTypes: ["packageManager", "devDependencies"],
+          matchUpdateTypes: ["minor", "patch"],
         },
         {
-          "matchDepTypes": ["engines"],
-          "rangeStrategy": "widen"
-        }
-      ]
-    }
+          matchDepTypes: ["engines"],
+          rangeStrategy: "widen",
+        },
+      ],
+    },
   },
 
   autoMerge: true,
   autoApproveUpgrades: true,
   autoApproveOptions: {
-    allowedUsernames: ["edelwud", "github-actions[bot]", "dependabot[bot]", "renovate[bot]"],
+    allowedUsernames: [
+      "edelwud",
+      "github-actions[bot]",
+      "dependabot[bot]",
+      "renovate[bot]",
+    ],
   },
   pnpmVersion: "8",
   minNodeVersion: "20.9.0",
@@ -70,25 +75,17 @@ const monorepo = new TurborepoTsProject({
     pipeline: {
       dev: {
         dependsOn: ["^db:generate"],
-        cache: false
+        cache: false,
       },
       build: {
-        dependsOn: [
-          "^build",
-          "^db:generate"
-        ],
-        outputs: [
-          ".next/**",
-          "!.next/cache/**",
-          "dist/**",
-          "lib/**"
-        ]
+        dependsOn: ["^build", "^db:generate"],
+        outputs: [".next/**", "!.next/cache/**", "dist/**", "lib/**"],
       },
       "db:generate": {
-        cache: false
+        cache: false,
       },
       "db:push": {
-        cache: false
+        cache: false,
       },
     },
   },
@@ -136,7 +133,7 @@ const web = new NextJsTsProject({
 
     "database@*",
     "next-auth",
-    "next-intl@3.0.0-beta.19",
+    "next-intl",
     "nodemailer",
     "stripe",
   ],
@@ -193,7 +190,9 @@ const uikit = new TypeScriptProject({
 uikit.postCompileTask.exec("npx webpack");
 uikit.tasks.addTask("storybook", { exec: "npx storybook dev -p 5000" });
 
-const dbGenerate = database.tasks.addTask("db:generate", { exec: "prisma generate" });
+const dbGenerate = database.tasks.addTask("db:generate", {
+  exec: "prisma generate",
+});
 database.tasks.addTask("db:push", { exec: "prisma generate" });
 database.preCompileTask.spawn(dbGenerate);
 

@@ -37,10 +37,6 @@
       "type": "build"
     },
     {
-      "name": "eslint-import-resolver-node",
-      "type": "build"
-    },
-    {
       "name": "eslint-import-resolver-typescript",
       "type": "build"
     },
@@ -102,7 +98,6 @@
     },
     {
       "name": "next-intl",
-      "version": "3.0.0-beta.19",
       "type": "runtime"
     },
     {
