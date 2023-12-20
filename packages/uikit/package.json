@@ -20,7 +20,7 @@
     "@babel/preset-env": "7.23.6",
     "@babel/preset-react": "7.23.3",
     "@babel/preset-typescript": "7.23.3",
-    "@kuma-ui/webpack-plugin": "1.2.6",
+    "@kuma-ui/webpack-plugin": "1.2.7",
     "@storybook/addon-essentials": "7.6.6",
     "@storybook/addon-interactions": "7.6.6",
     "@storybook/addon-links": "7.6.6",
