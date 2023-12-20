@@ -1,7 +1,11 @@
 import { NextJsTsProject } from "@yersh/projen-nextjs";
 import { TurborepoTsProject } from "@yersh/projen-turborepo";
 import { DependencyType } from "projen";
-import { NodePackageManager, TypeScriptJsxMode } from "projen/lib/javascript";
+import {
+  NodePackageManager,
+  NpmAccess,
+  TypeScriptJsxMode,
+} from "projen/lib/javascript";
 import { TypeScriptProject } from "projen/lib/typescript";
 
 const monorepo = new TurborepoTsProject({
@@ -147,6 +151,10 @@ const uikit = new TypeScriptProject({
   outdir: "packages/uikit",
   defaultReleaseBranch: "main",
   packageManager: NodePackageManager.PNPM,
+
+  repository: "https://github.com/kinguru-io/kinguru-monorepo",
+  repositoryDirectory: "packages/turborepo",
+  npmAccess: NpmAccess.PUBLIC,
 
   eslint: true,
   prettier: true,
