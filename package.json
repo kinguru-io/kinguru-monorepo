@@ -31,7 +31,7 @@
     "@typescript-eslint/eslint-plugin": "^6",
     "@typescript-eslint/parser": "^6",
     "@yersh/projen-nextjs": "0.1.2",
-    "@yersh/projen-turborepo": "0.2.0",
+    "@yersh/projen-turborepo": "0.2.1",
     "constructs": "^10.0.0",
     "eslint": "^7",
     "eslint-config-prettier": "9.1.0",
