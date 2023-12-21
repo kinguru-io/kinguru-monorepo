@@ -1,5 +1,11 @@
 # database
 
+## 0.0.4
+
+### Patch Changes
+
+- [#79](https://github.com/kinguru-io/kinguru-monorepo/pull/79) [`8155705`](https://github.com/kinguru-io/kinguru-monorepo/commit/8155705715945c6e8878ea0ec17e31cc75614fde) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `eslint-plugin-prettier` to `5.1.1`.
+
 ## 0.0.3
 
 ### Patch Changes
