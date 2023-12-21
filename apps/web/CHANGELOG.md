@@ -1,5 +1,11 @@
 # web
 
+## 0.0.9
+
+### Patch Changes
+
+- [#77](https://github.com/kinguru-io/kinguru-monorepo/pull/77) [`1d72d48`](https://github.com/kinguru-io/kinguru-monorepo/commit/1d72d48a7b3e8eaa9577500ee84acd7c5e8a544d) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.4.0`.
+
 ## 0.0.8
 
 ### Patch Changes
