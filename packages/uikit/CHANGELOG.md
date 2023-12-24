@@ -1,5 +1,11 @@
 # @kinguru/uikit
 
+## 0.0.6
+
+### Patch Changes
+
+- [#83](https://github.com/kinguru-io/kinguru-monorepo/pull/83) [`fa7bed7`](https://github.com/kinguru-io/kinguru-monorepo/commit/fa7bed7aa929f9b803c6aa159766d4d0e7e3ed81) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `eslint-plugin-prettier` to `5.1.2`.
+
 ## 0.0.5
 
 ### Patch Changes
