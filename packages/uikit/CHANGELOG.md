@@ -1,5 +1,11 @@
 # @kinguru/uikit
 
+## 0.0.7
+
+### Patch Changes
+
+- [#87](https://github.com/kinguru-io/kinguru-monorepo/pull/87) [`b0d61fa`](https://github.com/kinguru-io/kinguru-monorepo/commit/b0d61faf8e94762752fbe01e5ade4dee78f5224c) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.46`.
+
 ## 0.0.6
 
 ### Patch Changes
