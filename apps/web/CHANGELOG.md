@@ -1,5 +1,12 @@
 # web
 
+## 0.0.14
+
+### Patch Changes
+
+- Updated dependencies [[`b45edad`](https://github.com/kinguru-io/kinguru-monorepo/commit/b45edad7c5d69f4c90ae6ba8b465aeb66ee45591)]:
+  - @kinguru/uikit@0.0.8
+
 ## 0.0.13
 
 ### Patch Changes
