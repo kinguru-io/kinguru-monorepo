@@ -1,5 +1,18 @@
 # @kinguru/uikit
 
+## 0.0.9
+
+### Patch Changes
+
+- [#93](https://github.com/kinguru-io/kinguru-monorepo/pull/93) [`642c087`](https://github.com/kinguru-io/kinguru-monorepo/commit/642c08753abf1c4ce2ad23ebd5e51ee55cbd7f14) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@storybook/addon-essentials` to `7.6.7`.
+  Updated dependency `@storybook/addon-interactions` to `7.6.7`.
+  Updated dependency `@storybook/addon-links` to `7.6.7`.
+  Updated dependency `@storybook/blocks` to `7.6.7`.
+  Updated dependency `@storybook/react` to `7.6.7`.
+  Updated dependency `@storybook/react-webpack5` to `7.6.7`.
+  Updated dependency `@storybook/test` to `7.6.7`.
+  Updated dependency `storybook` to `7.6.7`.
+
 ## 0.0.8
 
 ### Patch Changes
