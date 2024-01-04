@@ -99,8 +99,8 @@ importers:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
       stripe:
-        specifier: 14.10.0
-        version: 14.10.0
+        specifier: 14.11.0
+        version: 14.11.0
     devDependencies:
       '@types/node':
         specifier: ^18
@@ -13380,8 +13380,8 @@ packages:
     engines: {node: '>=14.16'}
     dev: true
 
-  /stripe@14.10.0:
-    resolution: {integrity: sha512-zI6yxYVFJtjibgb06Xn08KsJy1Zq+KE3jLkhZ8bJOTrxNVi2CtCreQdUn+NjXN5lTEdiNhxIqL0NmuSza+rOGw==}
+  /stripe@14.11.0:
+    resolution: {integrity: sha512-NmFEkDC0PldP7CQtdPgKs5dVZA/pF+IepldbmB+Kk9B4d7EBkWnbANp0y+/zJcbRGul48s8hmQzeqNWUlWW0wg==}
     engines: {node: '>=12.*'}
     dependencies:
       '@types/node': 20.10.5
