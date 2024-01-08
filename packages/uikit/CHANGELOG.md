@@ -1,5 +1,13 @@
 # @kinguru/uikit
 
+## 0.0.10
+
+### Patch Changes
+
+- [#105](https://github.com/kinguru-io/kinguru-monorepo/pull/105) [`89985cf`](https://github.com/kinguru-io/kinguru-monorepo/commit/89985cf8a4e5a176cc8453f77f184a39f84c35e6) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@babel/preset-env` to `7.23.8`.
+
+- [#102](https://github.com/kinguru-io/kinguru-monorepo/pull/102) [`1537c74`](https://github.com/kinguru-io/kinguru-monorepo/commit/1537c74cfb69a9c1bf663860019271d07be599a3) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.47`.
+
 ## 0.0.9
 
 ### Patch Changes
