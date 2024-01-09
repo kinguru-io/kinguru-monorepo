@@ -1,5 +1,16 @@
 # web
 
+## 0.0.18
+
+### Patch Changes
+
+- [#100](https://github.com/kinguru-io/kinguru-monorepo/pull/100) [`35d84e5`](https://github.com/kinguru-io/kinguru-monorepo/commit/35d84e55d2c420f067e74b481e7cca4354b6ebfb) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.11.0`.
+
+- [#102](https://github.com/kinguru-io/kinguru-monorepo/pull/102) [`1537c74`](https://github.com/kinguru-io/kinguru-monorepo/commit/1537c74cfb69a9c1bf663860019271d07be599a3) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.47`.
+
+- Updated dependencies [[`89985cf`](https://github.com/kinguru-io/kinguru-monorepo/commit/89985cf8a4e5a176cc8453f77f184a39f84c35e6), [`1537c74`](https://github.com/kinguru-io/kinguru-monorepo/commit/1537c74cfb69a9c1bf663860019271d07be599a3)]:
+  - @kinguru/uikit@0.0.10
+
 ## 0.0.17
 
 ### Patch Changes
