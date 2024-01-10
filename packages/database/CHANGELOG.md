@@ -1,5 +1,15 @@
 # database
 
+## 0.0.6
+
+### Patch Changes
+
+- [#112](https://github.com/kinguru-io/kinguru-monorepo/pull/112) [`f385e41`](https://github.com/kinguru-io/kinguru-monorepo/commit/f385e41a1d39316b5ccb0666d7c51ea58685dad2) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `eslint-plugin-prettier` to `5.1.3`.
+
+- [#111](https://github.com/kinguru-io/kinguru-monorepo/pull/111) [`b725861`](https://github.com/kinguru-io/kinguru-monorepo/commit/b72586112a34ae518d2b21f3dcb132bd54091fb9) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `prisma` to `5.8.0`.
+  Updated dependency `@prisma/client` to `5.8.0`.
+  Updated dependency `@prisma/instrumentation` to `5.8.0`.
+
 ## 0.0.5
 
 ### Patch Changes
