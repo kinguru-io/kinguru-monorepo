@@ -1,5 +1,11 @@
 # @kinguru/uikit
 
+## 0.0.12
+
+### Patch Changes
+
+- [#115](https://github.com/kinguru-io/kinguru-monorepo/pull/115) [`b6f6db5`](https://github.com/kinguru-io/kinguru-monorepo/commit/b6f6db5dc59595bbb48ff35f25955172075ed7ab) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `mini-css-extract-plugin` to `2.7.7`.
+
 ## 0.0.11
 
 ### Patch Changes
