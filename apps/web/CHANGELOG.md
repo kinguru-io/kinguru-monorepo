@@ -1,5 +1,17 @@
 # web
 
+## 0.0.19
+
+### Patch Changes
+
+- [#112](https://github.com/kinguru-io/kinguru-monorepo/pull/112) [`f385e41`](https://github.com/kinguru-io/kinguru-monorepo/commit/f385e41a1d39316b5ccb0666d7c51ea58685dad2) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `eslint-plugin-prettier` to `5.1.3`.
+
+- [#106](https://github.com/kinguru-io/kinguru-monorepo/pull/106) [`b8acffd`](https://github.com/kinguru-io/kinguru-monorepo/commit/b8acffd82e3e538bc69b6fae3a2dcc57543cd894) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.4.2`.
+
+- Updated dependencies [[`516a2b8`](https://github.com/kinguru-io/kinguru-monorepo/commit/516a2b84dccd4df5bb1602c9f516da701934fa44), [`f385e41`](https://github.com/kinguru-io/kinguru-monorepo/commit/f385e41a1d39316b5ccb0666d7c51ea58685dad2), [`b725861`](https://github.com/kinguru-io/kinguru-monorepo/commit/b72586112a34ae518d2b21f3dcb132bd54091fb9)]:
+  - @kinguru/uikit@0.0.11
+  - database@0.0.6
+
 ## 0.0.18
 
 ### Patch Changes

@@ -1,5 +1,13 @@
 # @kinguru/uikit
 
+## 0.0.11
+
+### Patch Changes
+
+- [#107](https://github.com/kinguru-io/kinguru-monorepo/pull/107) [`516a2b8`](https://github.com/kinguru-io/kinguru-monorepo/commit/516a2b84dccd4df5bb1602c9f516da701934fa44) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `css-loader` to `6.9.0`.
+
+- [#112](https://github.com/kinguru-io/kinguru-monorepo/pull/112) [`f385e41`](https://github.com/kinguru-io/kinguru-monorepo/commit/f385e41a1d39316b5ccb0666d7c51ea58685dad2) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `eslint-plugin-prettier` to `5.1.3`.
+
 ## 0.0.10
 
 ### Patch Changes
