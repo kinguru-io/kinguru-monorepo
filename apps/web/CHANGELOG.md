@@ -1,5 +1,12 @@
 # web
 
+## 0.0.21
+
+### Patch Changes
+
+- Updated dependencies [[`79df987`](https://github.com/kinguru-io/kinguru-monorepo/commit/79df98764f09350b807443c5661ca619d2e42ac1)]:
+  - @kinguru/uikit@0.0.13
+
 ## 0.0.20
 
 ### Patch Changes
