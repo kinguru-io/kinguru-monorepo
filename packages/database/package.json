@@ -31,7 +31,7 @@
     "jest": "29.7.0",
     "jest-junit": "^15",
     "npm-check-updates": "^16",
-    "prettier": "3.2.0",
+    "prettier": "3.2.1",
     "prisma": "5.8.0",
     "projen": "^0.76.16",
     "ts-jest": "29.1.1",
