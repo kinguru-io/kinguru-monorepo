@@ -1,5 +1,19 @@
 # web
 
+## 0.0.22
+
+### Patch Changes
+
+- [#120](https://github.com/kinguru-io/kinguru-monorepo/pull/120) [`46638a5`](https://github.com/kinguru-io/kinguru-monorepo/commit/46638a55727a5b891d3dabbb014d6aa61a4de1e7) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.12.0`.
+
+- [#119](https://github.com/kinguru-io/kinguru-monorepo/pull/119) [`5f6f967`](https://github.com/kinguru-io/kinguru-monorepo/commit/5f6f967dd8506387ac97417b8389f9510ab978ee) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `prettier` to `3.2.0`.
+
+- [#122](https://github.com/kinguru-io/kinguru-monorepo/pull/122) [`2be96b8`](https://github.com/kinguru-io/kinguru-monorepo/commit/2be96b82d5fef62131c77290a0cd15178de48493) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `prettier` to `3.2.1`.
+
+- Updated dependencies [[`5f6f967`](https://github.com/kinguru-io/kinguru-monorepo/commit/5f6f967dd8506387ac97417b8389f9510ab978ee), [`2be96b8`](https://github.com/kinguru-io/kinguru-monorepo/commit/2be96b82d5fef62131c77290a0cd15178de48493)]:
+  - database@0.0.7
+  - @kinguru/uikit@0.0.14
+
 ## 0.0.21
 
 ### Patch Changes
