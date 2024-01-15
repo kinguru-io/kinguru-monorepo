@@ -1,5 +1,12 @@
 # web
 
+## 0.0.25
+
+### Patch Changes
+
+- Updated dependencies [[`38ca807`](https://github.com/kinguru-io/kinguru-monorepo/commit/38ca80741df6c856190721e214371ba0666d2cad)]:
+  - database@0.0.9
+
 ## 0.0.24
 
 ### Patch Changes

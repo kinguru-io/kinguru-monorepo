@@ -1,5 +1,13 @@
 # database
 
+## 0.0.9
+
+### Patch Changes
+
+- [#127](https://github.com/kinguru-io/kinguru-monorepo/pull/127) [`38ca807`](https://github.com/kinguru-io/kinguru-monorepo/commit/38ca80741df6c856190721e214371ba0666d2cad) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `prisma` to `5.8.1`.
+  Updated dependency `@prisma/client` to `5.8.1`.
+  Updated dependency `@prisma/instrumentation` to `5.8.1`.
+
 ## 0.0.8
 
 ### Patch Changes
