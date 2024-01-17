@@ -1,5 +1,11 @@
 # database
 
+## 0.0.10
+
+### Patch Changes
+
+- [#133](https://github.com/kinguru-io/kinguru-monorepo/pull/133) [`b2aebc5`](https://github.com/kinguru-io/kinguru-monorepo/commit/b2aebc5244db6f7b289a873be2a1faf954e858a5) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `prettier` to `3.2.3`.
+
 ## 0.0.9
 
 ### Patch Changes
