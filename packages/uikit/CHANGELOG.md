@@ -1,5 +1,11 @@
 # @kinguru/uikit
 
+## 0.0.19
+
+### Patch Changes
+
+- [#140](https://github.com/kinguru-io/kinguru-monorepo/pull/140) [`55abef4`](https://github.com/kinguru-io/kinguru-monorepo/commit/55abef4338591d141bccb7ec701a75bd3ffed78d) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@kuma-ui/core` to `1.5.6`.
+
 ## 0.0.18
 
 ### Patch Changes
