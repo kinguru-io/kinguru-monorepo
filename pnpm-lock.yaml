@@ -243,8 +243,8 @@ importers:
         specifier: 7.23.3
         version: 7.23.3(@babel/core@7.23.7)
       '@kuma-ui/webpack-plugin':
-        specifier: 1.2.7
-        version: 1.2.7(@types/react@18.2.48)(react@18.2.0)(webpack@5.89.0)
+        specifier: 1.3.0
+        version: 1.3.0(@types/react@18.2.48)(react@18.2.0)(webpack@5.89.0)
       '@storybook/addon-essentials':
         specifier: 7.6.9
         version: 7.6.9(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
@@ -2597,6 +2597,22 @@ packages:
       - next
       - react
       - supports-color
+    dev: false
+
+  /@kuma-ui/babel-plugin@1.1.15(@types/react@18.2.48)(react@18.2.0):
+    resolution: {integrity: sha512-H+hiyFI8BOwjvdI0VHPqpIuslh2vZu1lYX9SyUiKVrha/nDDd3LdL4ykukIkLmvekGMYpO5R9+teTkuhxTk+wA==}
+    dependencies:
+      '@babel/core': 7.23.7
+      '@kuma-ui/compiler': 1.2.6(@types/react@18.2.48)(react@18.2.0)
+      '@kuma-ui/core': 1.5.6(@types/react@18.2.48)(react@18.2.0)
+      '@kuma-ui/sheet': 1.3.0
+      '@kuma-ui/system': 1.7.3
+    transitivePeerDependencies:
+      - '@types/react'
+      - next
+      - react
+      - supports-color
+    dev: true
 
   /@kuma-ui/compiler@1.2.5(@types/react@18.2.48)(next@14.0.4)(react@18.2.0):
     resolution: {integrity: sha512-vnDT0gYT1pfnlqie6REX/TbG10vsjTcYWEN5P38FB1Zt88fnM7P/NC95cQBIZ0XLOEjArVCsKG2rqBhJBpLzWQ==}
@@ -2609,6 +2625,20 @@ packages:
       - '@types/react'
       - next
       - react
+    dev: false
+
+  /@kuma-ui/compiler@1.2.6(@types/react@18.2.48)(react@18.2.0):
+    resolution: {integrity: sha512-6cNbEJxkk4OO4QS9HeU6yKNkcvqAnYME7eeUBqXR8G8XTGTDlJgB2PauQmGlii2ZOlKxC9vQ5skE0jboYXVFzg==}
+    dependencies:
+      '@kuma-ui/core': 1.5.6(@types/react@18.2.48)(react@18.2.0)
+      '@kuma-ui/sheet': 1.3.0
+      '@kuma-ui/system': 1.7.3
+      ts-morph: 19.0.0
+    transitivePeerDependencies:
+      - '@types/react'
+      - next
+      - react
+    dev: true
 
   /@kuma-ui/core@1.5.5(@types/react@18.2.48)(next@14.0.4)(react@18.2.0):
     resolution: {integrity: sha512-YiW1Xa4eQNCWNPMuIPlhhJvStDefzIR4egLgcCTJtKp76OGz+iWcFm7J+ywcBJFbdJfnFvM3MTdaYzAH9EiW0A==}
@@ -2629,6 +2659,27 @@ packages:
       next: 14.0.4(@babel/core@7.23.7)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       stylis: 4.3.0
+    dev: false
+
+  /@kuma-ui/core@1.5.6(@types/react@18.2.48)(react@18.2.0):
+    resolution: {integrity: sha512-sTDdPyUg3FX5pKwkao4dB4chigJSzrhhPAYJt40jTK5IuF52Q8d3/P+pPevbgTu3TM+18jQsSNGqSL3HPMXhww==}
+    peerDependencies:
+      '@types/react': ^18.0.32
+      next: '>=13.4.5'
+      react: '>=18.2.0'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      next:
+        optional: true
+    dependencies:
+      '@kuma-ui/sheet': 1.3.0
+      '@kuma-ui/system': 1.7.3
+      '@types/react': 18.2.48
+      '@types/stylis': 4.2.4
+      react: 18.2.0
+      stylis: 4.3.0
+    dev: true
 
   /@kuma-ui/next-plugin@1.1.15(@babel/core@7.23.7)(@types/react@18.2.48)(next@14.0.4)(react@18.2.0)(webpack@5.89.0):
     resolution: {integrity: sha512-pxHgQGrZzkbPWdyOuXV/nfXSqdG+25Hh14oAt+fXFyBQ2I2+Q5I+8qdADvG8B0OPrLA2j0drnLhOS5axDSiO2Q==}
@@ -2667,6 +2718,14 @@ packages:
     dependencies:
       '@kuma-ui/sheet': 1.3.0
       csstype: 3.1.3
+    dev: false
+
+  /@kuma-ui/system@1.7.3:
+    resolution: {integrity: sha512-d+L4d4p34UDY05fGF5JL3ZIbhE928v9nuzhpoSGUo4LM6u81snajjNQaIxHOpuwP7C0JDCWRNTjDpdBN3wW9Vw==}
+    dependencies:
+      '@kuma-ui/sheet': 1.3.0
+      csstype: 3.1.3
+    dev: true
 
   /@kuma-ui/webpack-plugin@1.2.7(@types/react@18.2.48)(next@14.0.4)(react@18.2.0)(webpack@5.89.0):
     resolution: {integrity: sha512-Y+YQ+iauw0iAiPf4kuBozAx8jejnzhw4HUgWodiaJFOOITuQMA5jT8X1J/pvFwdRXuefO9lnN5YNKIc/a6P0XA==}
@@ -2686,14 +2745,14 @@ packages:
       - supports-color
     dev: false
 
-  /@kuma-ui/webpack-plugin@1.2.7(@types/react@18.2.48)(react@18.2.0)(webpack@5.89.0):
-    resolution: {integrity: sha512-Y+YQ+iauw0iAiPf4kuBozAx8jejnzhw4HUgWodiaJFOOITuQMA5jT8X1J/pvFwdRXuefO9lnN5YNKIc/a6P0XA==}
+  /@kuma-ui/webpack-plugin@1.3.0(@types/react@18.2.48)(react@18.2.0)(webpack@5.89.0):
+    resolution: {integrity: sha512-B75pGsdJrDniNz5J55la3uIZNu+Jr81Jobo8baZHRd+z7OvjSJBxYwpyaexVzR6NaEqg6qmerX+a5HZwZjQtjA==}
     peerDependencies:
       webpack: ^5
     dependencies:
-      '@kuma-ui/babel-plugin': 1.1.14(@types/react@18.2.48)(next@14.0.4)(react@18.2.0)
+      '@kuma-ui/babel-plugin': 1.1.15(@types/react@18.2.48)(react@18.2.0)
       '@kuma-ui/sheet': 1.3.0
-      '@kuma-ui/system': 1.7.2
+      '@kuma-ui/system': 1.7.3
       esbuild: 0.18.20
       eval: 0.1.8
       webpack: 5.89.0(@swc/core@1.3.101)(esbuild@0.18.20)(webpack-cli@5.1.4)
@@ -2744,6 +2803,7 @@ packages:
 
   /@next/env@14.0.4:
     resolution: {integrity: sha512-irQnbMLbUNQpP1wcE5NstJtbuA/69kRfzBrpAD7Gsn8zm/CY6YQYc3HQBz8QPxwISG26tIm5afvvVbu508oBeQ==}
+    dev: false
 
   /@next/eslint-plugin-next@14.0.4:
     resolution: {integrity: sha512-U3qMNHmEZoVmHA0j/57nRfi3AscXNvkOnxDmle/69Jz/G0o/gWjXTDdlgILZdrxQ0Lw/jv2mPW8PGy0EGIHXhQ==}
@@ -2757,6 +2817,7 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-darwin-x64@14.0.4:
@@ -2765,6 +2826,7 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-linux-arm64-gnu@14.0.4:
@@ -2773,6 +2835,7 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-linux-arm64-musl@14.0.4:
@@ -2781,6 +2844,7 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-linux-x64-gnu@14.0.4:
@@ -2789,6 +2853,7 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-linux-x64-musl@14.0.4:
@@ -2797,6 +2862,7 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-win32-arm64-msvc@14.0.4:
@@ -2805,6 +2871,7 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-win32-ia32-msvc@14.0.4:
@@ -2813,6 +2880,7 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-win32-x64-msvc@14.0.4:
@@ -2821,6 +2889,7 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@nodelib/fs.scandir@2.1.5:
@@ -4830,6 +4899,7 @@ packages:
     resolution: {integrity: sha512-E4KcWTpoLHqwPHLxidpOqQbcrZVgi0rsmmZXUle1jXmJfuIf/UWpczUJ7MZZ5tlxytgJXyp0w4PGkkeLiuIdZw==}
     dependencies:
       tslib: 2.6.2
+    dev: false
 
   /@swc/types@0.1.5:
     resolution: {integrity: sha512-myfUej5naTBWnqOCc/MdVOLVjXUXtIA+NpDrDBKJtLLg2shUjBu3cZmB/85RyitKc55+lUUyl7oRfLOvkr2hsw==}
@@ -6561,6 +6631,7 @@ packages:
     engines: {node: '>=10.16.0'}
     dependencies:
       streamsearch: 1.1.0
+    dev: false
 
   /bytes@3.0.0:
     resolution: {integrity: sha512-pMhOfFDPiv9t5jjIXkHosWmkSyQbvsgEVNkz0ERHbuLh2T/7j4Mqqpz523Fe8MVY89KC6Sh/QfS2sM+SjgFDcw==}
@@ -6823,6 +6894,7 @@ packages:
 
   /client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
+    dev: false
 
   /cliui@6.0.0:
     resolution: {integrity: sha512-t6wbgtoCXvAzst7QgXxJYqPt0usEfbgQdftEPbLL/cvv6HPE5VgvqCuAIDR0NgU52ds6rFwqrgakNLrHEjCbrQ==}
@@ -11203,6 +11275,7 @@ packages:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
+    dev: false
 
   /no-case@3.0.4:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
@@ -11970,6 +12043,7 @@ packages:
       nanoid: 3.3.7
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: false
 
   /postcss@8.4.32:
     resolution: {integrity: sha512-D/kj5JNu6oo2EIy+XL/26JEDTlIbB8hw85G8StOE6L74RQAVVP5rej6wxCNqyMbR4RkPfqvezVbPw81Ngd6Kcw==}
@@ -13250,6 +13324,7 @@ packages:
   /streamsearch@1.1.0:
     resolution: {integrity: sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==}
     engines: {node: '>=10.0.0'}
+    dev: false
 
   /string-length@4.0.2:
     resolution: {integrity: sha512-+l6rNN5fYHNhZZy41RXsYptCjA2Igmq4EG7kZAYFQI1E1VTXarr6ZPXBg6eq7Y6eK4FEhY6AJlyuFIb/v/S0VQ==}
@@ -13424,6 +13499,7 @@ packages:
       '@babel/core': 7.23.7
       client-only: 0.0.1
       react: 18.2.0
+    dev: false
 
   /stylis@4.3.0:
     resolution: {integrity: sha512-E87pIogpwUsUwXw7dNyU4QDjdgVMy52m+XEOPEKUn161cCzWjjhPSQhByfd1CcNvrOLnXQ6OnnZDwnJrz/Z4YQ==}
