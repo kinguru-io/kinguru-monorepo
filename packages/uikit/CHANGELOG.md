@@ -1,5 +1,11 @@
 # @kinguru/uikit
 
+## 0.0.21
+
+### Patch Changes
+
+- [#146](https://github.com/kinguru-io/kinguru-monorepo/pull/146) [`4f72fd9`](https://github.com/kinguru-io/kinguru-monorepo/commit/4f72fd98151776338eb1fbd0c9029b47a10740e4) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `css-loader` to `6.9.1`.
+
 ## 0.0.20
 
 ### Patch Changes
