@@ -1,5 +1,15 @@
 # web
 
+## 0.0.34
+
+### Patch Changes
+
+- [#150](https://github.com/kinguru-io/kinguru-monorepo/pull/150) [`c6a8886`](https://github.com/kinguru-io/kinguru-monorepo/commit/c6a8886a93f13e14f096a3213a0bacc1ad80b207) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next` to `14.1.0`.
+
+- [#151](https://github.com/kinguru-io/kinguru-monorepo/pull/151) [`5c47eb8`](https://github.com/kinguru-io/kinguru-monorepo/commit/5c47eb8c1156c8bd9a1339e67376d8c39a2a0e5e) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.13.0`.
+
+- [#153](https://github.com/kinguru-io/kinguru-monorepo/pull/153) [`a346ae9`](https://github.com/kinguru-io/kinguru-monorepo/commit/a346ae9365c0becd2a77ba2f504875fe1640372b) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.4.5`.
+
 ## 0.0.33
 
 ### Patch Changes
