@@ -1,5 +1,17 @@
 # web
 
+## 0.0.35
+
+### Patch Changes
+
+- [#155](https://github.com/kinguru-io/kinguru-monorepo/pull/155) [`6e537ea`](https://github.com/kinguru-io/kinguru-monorepo/commit/6e537ea13fa78ce47580cc9cb67b724c21fc8db5) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.5.0`.
+
+- [#159](https://github.com/kinguru-io/kinguru-monorepo/pull/159) [`62dc982`](https://github.com/kinguru-io/kinguru-monorepo/commit/62dc9820570f700c920df702d818ee54ba4b360b) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.5.1`.
+
+- Updated dependencies [[`9c65192`](https://github.com/kinguru-io/kinguru-monorepo/commit/9c651928743c145267195cf5d0fad91bf4693091), [`3b0f66c`](https://github.com/kinguru-io/kinguru-monorepo/commit/3b0f66c18207a4f33f2228e4a7b21bfc1885dfc2), [`cd3128e`](https://github.com/kinguru-io/kinguru-monorepo/commit/cd3128e7c3d69e5ea124d494b321ed7f21552177)]:
+  - @kinguru/uikit@0.0.22
+  - database@0.0.12
+
 ## 0.0.34
 
 ### Patch Changes
