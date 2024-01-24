@@ -1,5 +1,15 @@
 # @kinguru/uikit
 
+## 0.0.22
+
+### Patch Changes
+
+- [#160](https://github.com/kinguru-io/kinguru-monorepo/pull/160) [`9c65192`](https://github.com/kinguru-io/kinguru-monorepo/commit/9c651928743c145267195cf5d0fad91bf4693091) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@storybook/addon-onboarding` to `1.0.11`.
+
+- [#154](https://github.com/kinguru-io/kinguru-monorepo/pull/154) [`3b0f66c`](https://github.com/kinguru-io/kinguru-monorepo/commit/3b0f66c18207a4f33f2228e4a7b21bfc1885dfc2) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `ts-jest` to `29.1.2`.
+
+- [#161](https://github.com/kinguru-io/kinguru-monorepo/pull/161) [`cd3128e`](https://github.com/kinguru-io/kinguru-monorepo/commit/cd3128e7c3d69e5ea124d494b321ed7f21552177) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `webpack` to `5.90.0`.
+
 ## 0.0.21
 
 ### Patch Changes

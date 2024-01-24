@@ -1,5 +1,11 @@
 # database
 
+## 0.0.12
+
+### Patch Changes
+
+- [#154](https://github.com/kinguru-io/kinguru-monorepo/pull/154) [`3b0f66c`](https://github.com/kinguru-io/kinguru-monorepo/commit/3b0f66c18207a4f33f2228e4a7b21bfc1885dfc2) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `ts-jest` to `29.1.2`.
+
 ## 0.0.11
 
 ### Patch Changes
