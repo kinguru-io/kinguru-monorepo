@@ -1,5 +1,11 @@
 # database
 
+## 0.0.13
+
+### Patch Changes
+
+- [#166](https://github.com/kinguru-io/kinguru-monorepo/pull/166) [`7e467ff`](https://github.com/kinguru-io/kinguru-monorepo/commit/7e467ff996b4b67d6280393ba2a5973873d60215) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@faker-js/faker` to `8.4.0`.
+
 ## 0.0.12
 
 ### Patch Changes
