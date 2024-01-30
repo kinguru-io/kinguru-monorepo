@@ -32,14 +32,14 @@
     "jest-junit": "^15",
     "npm-check-updates": "^16",
     "prettier": "3.2.4",
-    "prisma": "5.8.1",
+    "prisma": "5.9.0",
     "projen": "^0.76.16",
     "ts-jest": "29.1.2",
     "typescript": "5.3.3"
   },
   "dependencies": {
-    "@prisma/client": "5.8.1",
-    "@prisma/instrumentation": "5.8.1"
+    "@prisma/client": "5.9.0",
+    "@prisma/instrumentation": "5.9.0"
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",
