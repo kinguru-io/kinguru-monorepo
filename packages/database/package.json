@@ -35,7 +35,7 @@
     "prisma": "5.8.1",
     "projen": "^0.76.16",
     "ts-jest": "29.1.2",
-    "typescript": "5.3.3"
+    "typescript": "5.4.2"
   },
   "dependencies": {
     "@prisma/client": "5.8.1",
