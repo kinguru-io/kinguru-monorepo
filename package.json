@@ -41,7 +41,7 @@
     "prettier": "3.2.5",
     "projen": "^0.76.17",
     "ts-node": "10.9.2",
-    "turbo": "1.11.3",
+    "turbo": "1.12.5",
     "typescript": "5.3.3"
   },
   "pnpm": {},
