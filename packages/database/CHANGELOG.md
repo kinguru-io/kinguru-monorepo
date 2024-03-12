@@ -1,5 +1,15 @@
 # database
 
+## 0.0.14
+
+### Patch Changes
+
+- [#197](https://github.com/kinguru-io/kinguru-monorepo/pull/197) [`9b4b786`](https://github.com/kinguru-io/kinguru-monorepo/commit/9b4b7866874b9db53328093e491d2c9172e8785a) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@faker-js/faker` to `8.4.1`.
+
+- [#184](https://github.com/kinguru-io/kinguru-monorepo/pull/184) [`d174c24`](https://github.com/kinguru-io/kinguru-monorepo/commit/d174c24700fb5099f9542d80c58701eb0601aa89) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/jest` to `29.5.12`.
+
+- [#188](https://github.com/kinguru-io/kinguru-monorepo/pull/188) [`ad71aa9`](https://github.com/kinguru-io/kinguru-monorepo/commit/ad71aa9a965b97050e836c23f85d89e03482fc67) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `prettier` to `3.2.5`.
+
 ## 0.0.13
 
 ### Patch Changes
