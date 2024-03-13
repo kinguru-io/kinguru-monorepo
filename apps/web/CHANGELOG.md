@@ -1,5 +1,14 @@
 # web
 
+## 0.0.39
+
+### Patch Changes
+
+- [#241](https://github.com/kinguru-io/kinguru-monorepo/pull/241) [`b6c944a`](https://github.com/kinguru-io/kinguru-monorepo/commit/b6c944a07422ee920ed318112e66199dc3583ad1) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react-dom` to `18.2.22`.
+
+- Updated dependencies [[`b6c944a`](https://github.com/kinguru-io/kinguru-monorepo/commit/b6c944a07422ee920ed318112e66199dc3583ad1)]:
+  - @kinguru/uikit@0.0.24
+
 ## 0.0.38
 
 ### Patch Changes
