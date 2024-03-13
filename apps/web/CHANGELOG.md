@@ -1,5 +1,111 @@
 # web
 
+## 0.0.38
+
+### Patch Changes
+
+- [#225](https://github.com/kinguru-io/kinguru-monorepo/pull/225) [`028d78c`](https://github.com/kinguru-io/kinguru-monorepo/commit/028d78c6c32687f46f6ff8026dc4c7d1e1b9caba) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.62`.
+
+- [#229](https://github.com/kinguru-io/kinguru-monorepo/pull/229) [`1543fa4`](https://github.com/kinguru-io/kinguru-monorepo/commit/1543fa485429858010ee9e94506f382ff769e835) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react-dom` to `18.2.20`.
+
+- [#214](https://github.com/kinguru-io/kinguru-monorepo/pull/214) [`a48e173`](https://github.com/kinguru-io/kinguru-monorepo/commit/a48e1735a6dcf454a8ca672d8e2502123c878d6b) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.18.0`.
+
+- [#232](https://github.com/kinguru-io/kinguru-monorepo/pull/232) [`e6c03e5`](https://github.com/kinguru-io/kinguru-monorepo/commit/e6c03e55f47bdf7d06e2c3acd96156ea45660d12) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react-dom` to `18.2.21`.
+
+- [#169](https://github.com/kinguru-io/kinguru-monorepo/pull/169) [`d6bbbae`](https://github.com/kinguru-io/kinguru-monorepo/commit/d6bbbae7f8164c722b8cd8ade728d84daee116b0) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.14.0`.
+
+- [#222](https://github.com/kinguru-io/kinguru-monorepo/pull/222) [`4af96f4`](https://github.com/kinguru-io/kinguru-monorepo/commit/4af96f41d21371944ec79082cf72d8c392d206d0) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.19.0`.
+
+- [#179](https://github.com/kinguru-io/kinguru-monorepo/pull/179) [`75f0f51`](https://github.com/kinguru-io/kinguru-monorepo/commit/75f0f51732075911c13b3e794e3e6a48c57227ec) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.49`.
+
+- [#211](https://github.com/kinguru-io/kinguru-monorepo/pull/211) [`a074dcd`](https://github.com/kinguru-io/kinguru-monorepo/commit/a074dcdb2e8c8d89d4c0835cfc7b32cf09868cf7) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.57`.
+
+- [#212](https://github.com/kinguru-io/kinguru-monorepo/pull/212) [`1a2fcba`](https://github.com/kinguru-io/kinguru-monorepo/commit/1a2fcba6e658b46cee4f035e3adace15a02d206e) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.9.0`.
+
+- [#180](https://github.com/kinguru-io/kinguru-monorepo/pull/180) [`156a86d`](https://github.com/kinguru-io/kinguru-monorepo/commit/156a86db3f56a8df9c988c2c85fe558bc000e3c8) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.50`.
+
+- [#237](https://github.com/kinguru-io/kinguru-monorepo/pull/237) [`0f10616`](https://github.com/kinguru-io/kinguru-monorepo/commit/0f10616603f91700b84a54b0743e192a5b544d8d) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.9.4`.
+
+- [#187](https://github.com/kinguru-io/kinguru-monorepo/pull/187) [`ea7cdc9`](https://github.com/kinguru-io/kinguru-monorepo/commit/ea7cdc97a2f02d8115904e4c24db53a74ab0cf62) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.52`.
+
+- [#213](https://github.com/kinguru-io/kinguru-monorepo/pull/213) [`f6cc5ff`](https://github.com/kinguru-io/kinguru-monorepo/commit/f6cc5ff31c22598b88a60640cefe6c4243cc5e42) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `nodemailer` to `6.9.10`.
+
+- [#226](https://github.com/kinguru-io/kinguru-monorepo/pull/226) [`577a377`](https://github.com/kinguru-io/kinguru-monorepo/commit/577a3775af2ec113ba3536121d415b218b4ec8cb) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `eslint-config-next` to `14.1.2`.
+  Updated dependency `next` to `14.1.2`.
+
+- [#218](https://github.com/kinguru-io/kinguru-monorepo/pull/218) [`0f144fb`](https://github.com/kinguru-io/kinguru-monorepo/commit/0f144fb7be24b1639e14b7af6f194bb6cbd48264) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.60`.
+
+- [#198](https://github.com/kinguru-io/kinguru-monorepo/pull/198) [`1430e59`](https://github.com/kinguru-io/kinguru-monorepo/commit/1430e596c2906703fc46eb782c0775c5694ea393) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.6.0`.
+
+- [#171](https://github.com/kinguru-io/kinguru-monorepo/pull/171) [`2437ed5`](https://github.com/kinguru-io/kinguru-monorepo/commit/2437ed502adbc4c522cc6a1f8eb571140abe5a98) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.5.3`.
+
+- [#221](https://github.com/kinguru-io/kinguru-monorepo/pull/221) [`0440e5f`](https://github.com/kinguru-io/kinguru-monorepo/commit/0440e5f551539e949d9f0345006fade45dbdb828) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.61`.
+
+- [#183](https://github.com/kinguru-io/kinguru-monorepo/pull/183) [`924969c`](https://github.com/kinguru-io/kinguru-monorepo/commit/924969cc4ea9eb1e7f7aad7de4ef5e41e6da15ed) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `nodemailer` to `6.9.9`.
+
+- [#238](https://github.com/kinguru-io/kinguru-monorepo/pull/238) [`8bd0f25`](https://github.com/kinguru-io/kinguru-monorepo/commit/8bd0f255bb095a7f4f1eee83bd96d63052a00913) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `nodemailer` to `6.9.12`.
+
+- [#208](https://github.com/kinguru-io/kinguru-monorepo/pull/208) [`f0dde76`](https://github.com/kinguru-io/kinguru-monorepo/commit/f0dde762604bf22edb3a7a6d831d76bc673f7aa9) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.56`.
+
+- [#215](https://github.com/kinguru-io/kinguru-monorepo/pull/215) [`aedbcf5`](https://github.com/kinguru-io/kinguru-monorepo/commit/aedbcf54f055e3cf10cec19fb4f911e0af5ec23c) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.58`.
+
+- [#234](https://github.com/kinguru-io/kinguru-monorepo/pull/234) [`3ab2b1e`](https://github.com/kinguru-io/kinguru-monorepo/commit/3ab2b1e7b5a79a0ec3327d2745ab806555a146b8) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-auth` to `4.24.7`.
+
+- [#235](https://github.com/kinguru-io/kinguru-monorepo/pull/235) [`214bc06`](https://github.com/kinguru-io/kinguru-monorepo/commit/214bc06b20e723f83606a80fb5b9eb66959ef609) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.9.3`.
+
+- [#209](https://github.com/kinguru-io/kinguru-monorepo/pull/209) [`0b1fd0a`](https://github.com/kinguru-io/kinguru-monorepo/commit/0b1fd0a107266bcfb75eda56814ed19ed71e66d8) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.8.0`.
+
+- [#189](https://github.com/kinguru-io/kinguru-monorepo/pull/189) [`10067ff`](https://github.com/kinguru-io/kinguru-monorepo/commit/10067ff4cd04b20ae6286bc22de0bd3a50c14a2f) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.53`.
+
+- [#193](https://github.com/kinguru-io/kinguru-monorepo/pull/193) [`bee62a9`](https://github.com/kinguru-io/kinguru-monorepo/commit/bee62a976fab43518cc8a4ec399f5a05effebfe5) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.15.0`.
+
+- [#216](https://github.com/kinguru-io/kinguru-monorepo/pull/216) [`8590120`](https://github.com/kinguru-io/kinguru-monorepo/commit/859012027c70e078421a82d317a905aef8db8295) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.9.1`.
+
+- [#227](https://github.com/kinguru-io/kinguru-monorepo/pull/227) [`84f664a`](https://github.com/kinguru-io/kinguru-monorepo/commit/84f664abe3364a99cd1022fd2a6df240b71e0f4f) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.63`.
+
+- [#206](https://github.com/kinguru-io/kinguru-monorepo/pull/206) [`8b9be87`](https://github.com/kinguru-io/kinguru-monorepo/commit/8b9be871e2efebd1e9c9b6ee073cb714a6cc3363) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.17.0`.
+
+- [#203](https://github.com/kinguru-io/kinguru-monorepo/pull/203) [`821c6dc`](https://github.com/kinguru-io/kinguru-monorepo/commit/821c6dcb1bc2b8f54129bc7931bec16782b6725b) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-auth` to `4.24.6`.
+
+- [#199](https://github.com/kinguru-io/kinguru-monorepo/pull/199) [`330a120`](https://github.com/kinguru-io/kinguru-monorepo/commit/330a120b6055227d36bfa843bd387a45820db743) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.16.0`.
+
+- [#240](https://github.com/kinguru-io/kinguru-monorepo/pull/240) [`81a0264`](https://github.com/kinguru-io/kinguru-monorepo/commit/81a026441e9e4f6b1dd8f9f4525dcdc18ccbc291) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.65`.
+
+- [#220](https://github.com/kinguru-io/kinguru-monorepo/pull/220) [`a09bc18`](https://github.com/kinguru-io/kinguru-monorepo/commit/a09bc182df50d1632e7e9722ee5d2a3af3693d5d) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `nodemailer` to `6.9.11`.
+
+- [#188](https://github.com/kinguru-io/kinguru-monorepo/pull/188) [`ad71aa9`](https://github.com/kinguru-io/kinguru-monorepo/commit/ad71aa9a965b97050e836c23f85d89e03482fc67) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `prettier` to `3.2.5`.
+
+- [#233](https://github.com/kinguru-io/kinguru-monorepo/pull/233) [`9ddf634`](https://github.com/kinguru-io/kinguru-monorepo/commit/9ddf63447bc79f982d165e0676efcb8bf28e2f9a) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `eslint-config-next` to `14.1.3`.
+  Updated dependency `next` to `14.1.3`.
+
+- [#196](https://github.com/kinguru-io/kinguru-monorepo/pull/196) [`0defb0b`](https://github.com/kinguru-io/kinguru-monorepo/commit/0defb0b2aa661eb95f465f43656dfa8e7cde533a) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react-dom` to `18.2.19`.
+
+- [#192](https://github.com/kinguru-io/kinguru-monorepo/pull/192) [`2b70392`](https://github.com/kinguru-io/kinguru-monorepo/commit/2b70392524575d4bf69556221aeef7305067fd7b) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.54`.
+
+- [#200](https://github.com/kinguru-io/kinguru-monorepo/pull/200) [`3541a0c`](https://github.com/kinguru-io/kinguru-monorepo/commit/3541a0ce607215afbed73a36210e7f2f97046ed5) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.7.0`.
+
+- [#217](https://github.com/kinguru-io/kinguru-monorepo/pull/217) [`ba4dbbc`](https://github.com/kinguru-io/kinguru-monorepo/commit/ba4dbbc2fa122a72d069593b29ad820b26e31a28) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.59`.
+
+- [#236](https://github.com/kinguru-io/kinguru-monorepo/pull/236) [`bad7176`](https://github.com/kinguru-io/kinguru-monorepo/commit/bad71769b0d658a3899018be75e3f247ee4d7934) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.20.0`.
+
+- [#231](https://github.com/kinguru-io/kinguru-monorepo/pull/231) [`8985bb6`](https://github.com/kinguru-io/kinguru-monorepo/commit/8985bb612d849329709c8aa9904c7222c7f65a51) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.64`.
+
+- [#194](https://github.com/kinguru-io/kinguru-monorepo/pull/194) [`3769ec9`](https://github.com/kinguru-io/kinguru-monorepo/commit/3769ec9ddc41c23c5c1f3dc14d7ab30d827c88f9) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.55`.
+
+- [#224](https://github.com/kinguru-io/kinguru-monorepo/pull/224) [`550a983`](https://github.com/kinguru-io/kinguru-monorepo/commit/550a9836ef2517b8d101735c6ea922d2c47c1bc5) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `eslint-config-next` to `14.1.1`.
+
+- [#181](https://github.com/kinguru-io/kinguru-monorepo/pull/181) [`b38a855`](https://github.com/kinguru-io/kinguru-monorepo/commit/b38a855e84ec0c81b65bf954cf48ccb322c634b1) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.5.4`.
+
+- [#228](https://github.com/kinguru-io/kinguru-monorepo/pull/228) [`f1f1b03`](https://github.com/kinguru-io/kinguru-monorepo/commit/f1f1b03ed9c595708e75b1b0f59379fc9718f782) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.9.2`.
+
+- [#223](https://github.com/kinguru-io/kinguru-monorepo/pull/223) [`c091471`](https://github.com/kinguru-io/kinguru-monorepo/commit/c091471eb47f8c41c12edc55d675a10309ea12ae) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next` to `14.1.1`.
+
+- [#182](https://github.com/kinguru-io/kinguru-monorepo/pull/182) [`735ccae`](https://github.com/kinguru-io/kinguru-monorepo/commit/735ccaef5f50140a3c2463694cc045f92613a05c) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.51`.
+
+- Updated dependencies [[`028d78c`](https://github.com/kinguru-io/kinguru-monorepo/commit/028d78c6c32687f46f6ff8026dc4c7d1e1b9caba), [`7770c2a`](https://github.com/kinguru-io/kinguru-monorepo/commit/7770c2a367e382e62c70224ab17fe71ff064c3a8), [`1543fa4`](https://github.com/kinguru-io/kinguru-monorepo/commit/1543fa485429858010ee9e94506f382ff769e835), [`e6c03e5`](https://github.com/kinguru-io/kinguru-monorepo/commit/e6c03e55f47bdf7d06e2c3acd96156ea45660d12), [`faa1c72`](https://github.com/kinguru-io/kinguru-monorepo/commit/faa1c7239ed5e88c76671d5188575905ff03e7fc), [`75f0f51`](https://github.com/kinguru-io/kinguru-monorepo/commit/75f0f51732075911c13b3e794e3e6a48c57227ec), [`a074dcd`](https://github.com/kinguru-io/kinguru-monorepo/commit/a074dcdb2e8c8d89d4c0835cfc7b32cf09868cf7), [`156a86d`](https://github.com/kinguru-io/kinguru-monorepo/commit/156a86db3f56a8df9c988c2c85fe558bc000e3c8), [`0d7e578`](https://github.com/kinguru-io/kinguru-monorepo/commit/0d7e57884195f098aec4ef33aa7e20aaf7d525ba), [`ea7cdc9`](https://github.com/kinguru-io/kinguru-monorepo/commit/ea7cdc97a2f02d8115904e4c24db53a74ab0cf62), [`0f144fb`](https://github.com/kinguru-io/kinguru-monorepo/commit/0f144fb7be24b1639e14b7af6f194bb6cbd48264), [`77de3dc`](https://github.com/kinguru-io/kinguru-monorepo/commit/77de3dc5def4354e0329b4336a3afc8b678d7e95), [`bf33bf8`](https://github.com/kinguru-io/kinguru-monorepo/commit/bf33bf837c710fb660ba91d97e482cf9ca246c40), [`c539758`](https://github.com/kinguru-io/kinguru-monorepo/commit/c5397584a87af84ac344c8154fe53c8fed999c99), [`77f1f2a`](https://github.com/kinguru-io/kinguru-monorepo/commit/77f1f2ad11d96f8a717eb71596ac55c5fab30bab), [`0440e5f`](https://github.com/kinguru-io/kinguru-monorepo/commit/0440e5f551539e949d9f0345006fade45dbdb828), [`f0dde76`](https://github.com/kinguru-io/kinguru-monorepo/commit/f0dde762604bf22edb3a7a6d831d76bc673f7aa9), [`9b4b786`](https://github.com/kinguru-io/kinguru-monorepo/commit/9b4b7866874b9db53328093e491d2c9172e8785a), [`aedbcf5`](https://github.com/kinguru-io/kinguru-monorepo/commit/aedbcf54f055e3cf10cec19fb4f911e0af5ec23c), [`d174c24`](https://github.com/kinguru-io/kinguru-monorepo/commit/d174c24700fb5099f9542d80c58701eb0601aa89), [`3d714da`](https://github.com/kinguru-io/kinguru-monorepo/commit/3d714dad456bcd6215c2b1a2e41d1589e7230ccc), [`10067ff`](https://github.com/kinguru-io/kinguru-monorepo/commit/10067ff4cd04b20ae6286bc22de0bd3a50c14a2f), [`b6f73f0`](https://github.com/kinguru-io/kinguru-monorepo/commit/b6f73f0e2812279163eada4ae96f5f8694f2c9ad), [`84f664a`](https://github.com/kinguru-io/kinguru-monorepo/commit/84f664abe3364a99cd1022fd2a6df240b71e0f4f), [`3f8deb6`](https://github.com/kinguru-io/kinguru-monorepo/commit/3f8deb6a131a4f70def500e891685441d5cbb778), [`8a1169a`](https://github.com/kinguru-io/kinguru-monorepo/commit/8a1169ad241a3f3da6ac200c9c4d803ef16b1400), [`81a0264`](https://github.com/kinguru-io/kinguru-monorepo/commit/81a026441e9e4f6b1dd8f9f4525dcdc18ccbc291), [`ad71aa9`](https://github.com/kinguru-io/kinguru-monorepo/commit/ad71aa9a965b97050e836c23f85d89e03482fc67), [`0defb0b`](https://github.com/kinguru-io/kinguru-monorepo/commit/0defb0b2aa661eb95f465f43656dfa8e7cde533a), [`2b70392`](https://github.com/kinguru-io/kinguru-monorepo/commit/2b70392524575d4bf69556221aeef7305067fd7b), [`ba4dbbc`](https://github.com/kinguru-io/kinguru-monorepo/commit/ba4dbbc2fa122a72d069593b29ad820b26e31a28), [`8985bb6`](https://github.com/kinguru-io/kinguru-monorepo/commit/8985bb612d849329709c8aa9904c7222c7f65a51), [`3769ec9`](https://github.com/kinguru-io/kinguru-monorepo/commit/3769ec9ddc41c23c5c1f3dc14d7ab30d827c88f9), [`024b316`](https://github.com/kinguru-io/kinguru-monorepo/commit/024b316710395a04d3e9e0da0d1bd9b1f0487808), [`735ccae`](https://github.com/kinguru-io/kinguru-monorepo/commit/735ccaef5f50140a3c2463694cc045f92613a05c), [`f110548`](https://github.com/kinguru-io/kinguru-monorepo/commit/f11054849e5a7936af1a33f265f4a52e1bc0d0e7)]:
+  - @kinguru/uikit@0.0.23
+  - database@0.0.14
+
 ## 0.0.37
 
 ### Patch Changes

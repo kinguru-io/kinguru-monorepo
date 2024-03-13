@@ -1,5 +1,124 @@
 # @kinguru/uikit
 
+## 0.0.23
+
+### Patch Changes
+
+- [#225](https://github.com/kinguru-io/kinguru-monorepo/pull/225) [`028d78c`](https://github.com/kinguru-io/kinguru-monorepo/commit/028d78c6c32687f46f6ff8026dc4c7d1e1b9caba) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.62`.
+
+- [#185](https://github.com/kinguru-io/kinguru-monorepo/pull/185) [`7770c2a`](https://github.com/kinguru-io/kinguru-monorepo/commit/7770c2a367e382e62c70224ab17fe71ff064c3a8) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `webpack` to `5.90.1`.
+
+- [#229](https://github.com/kinguru-io/kinguru-monorepo/pull/229) [`1543fa4`](https://github.com/kinguru-io/kinguru-monorepo/commit/1543fa485429858010ee9e94506f382ff769e835) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react-dom` to `18.2.20`.
+
+- [#232](https://github.com/kinguru-io/kinguru-monorepo/pull/232) [`e6c03e5`](https://github.com/kinguru-io/kinguru-monorepo/commit/e6c03e55f47bdf7d06e2c3acd96156ea45660d12) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react-dom` to `18.2.21`.
+
+- [#168](https://github.com/kinguru-io/kinguru-monorepo/pull/168) [`faa1c72`](https://github.com/kinguru-io/kinguru-monorepo/commit/faa1c7239ed5e88c76671d5188575905ff03e7fc) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@babel/core` to `7.23.9`.
+  Updated dependency `@babel/preset-env` to `7.23.9`.
+
+- [#179](https://github.com/kinguru-io/kinguru-monorepo/pull/179) [`75f0f51`](https://github.com/kinguru-io/kinguru-monorepo/commit/75f0f51732075911c13b3e794e3e6a48c57227ec) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.49`.
+
+- [#211](https://github.com/kinguru-io/kinguru-monorepo/pull/211) [`a074dcd`](https://github.com/kinguru-io/kinguru-monorepo/commit/a074dcdb2e8c8d89d4c0835cfc7b32cf09868cf7) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.57`.
+
+- [#180](https://github.com/kinguru-io/kinguru-monorepo/pull/180) [`156a86d`](https://github.com/kinguru-io/kinguru-monorepo/commit/156a86db3f56a8df9c988c2c85fe558bc000e3c8) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.50`.
+
+- [#201](https://github.com/kinguru-io/kinguru-monorepo/pull/201) [`0d7e578`](https://github.com/kinguru-io/kinguru-monorepo/commit/0d7e57884195f098aec4ef33aa7e20aaf7d525ba) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@storybook/addon-essentials` to `7.6.14`.
+  Updated dependency `@storybook/addon-interactions` to `7.6.14`.
+  Updated dependency `@storybook/addon-links` to `7.6.14`.
+  Updated dependency `@storybook/blocks` to `7.6.14`.
+  Updated dependency `@storybook/react` to `7.6.14`.
+  Updated dependency `@storybook/react-webpack5` to `7.6.14`.
+  Updated dependency `@storybook/test` to `7.6.14`.
+  Updated dependency `storybook` to `7.6.14`.
+
+- [#187](https://github.com/kinguru-io/kinguru-monorepo/pull/187) [`ea7cdc9`](https://github.com/kinguru-io/kinguru-monorepo/commit/ea7cdc97a2f02d8115904e4c24db53a74ab0cf62) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.52`.
+
+- [#218](https://github.com/kinguru-io/kinguru-monorepo/pull/218) [`0f144fb`](https://github.com/kinguru-io/kinguru-monorepo/commit/0f144fb7be24b1639e14b7af6f194bb6cbd48264) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.60`.
+
+- [#195](https://github.com/kinguru-io/kinguru-monorepo/pull/195) [`77de3dc`](https://github.com/kinguru-io/kinguru-monorepo/commit/77de3dc5def4354e0329b4336a3afc8b678d7e95) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@storybook/addon-essentials` to `7.6.13`.
+  Updated dependency `@storybook/addon-interactions` to `7.6.13`.
+  Updated dependency `@storybook/addon-links` to `7.6.13`.
+  Updated dependency `@storybook/blocks` to `7.6.13`.
+  Updated dependency `@storybook/react` to `7.6.13`.
+  Updated dependency `@storybook/react-webpack5` to `7.6.13`.
+  Updated dependency `@storybook/test` to `7.6.13`.
+  Updated dependency `storybook` to `7.6.13`.
+
+- [#175](https://github.com/kinguru-io/kinguru-monorepo/pull/175) [`bf33bf8`](https://github.com/kinguru-io/kinguru-monorepo/commit/bf33bf837c710fb660ba91d97e482cf9ca246c40) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@storybook/addon-essentials` to `7.6.11`.
+  Updated dependency `@storybook/addon-interactions` to `7.6.11`.
+  Updated dependency `@storybook/addon-links` to `7.6.11`.
+  Updated dependency `@storybook/blocks` to `7.6.11`.
+  Updated dependency `@storybook/react` to `7.6.11`.
+  Updated dependency `@storybook/react-webpack5` to `7.6.11`.
+  Updated dependency `@storybook/test` to `7.6.11`.
+  Updated dependency `storybook` to `7.6.11`.
+
+- [#204](https://github.com/kinguru-io/kinguru-monorepo/pull/204) [`c539758`](https://github.com/kinguru-io/kinguru-monorepo/commit/c5397584a87af84ac344c8154fe53c8fed999c99) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `webpack` to `5.90.2`.
+
+- [#202](https://github.com/kinguru-io/kinguru-monorepo/pull/202) [`77f1f2a`](https://github.com/kinguru-io/kinguru-monorepo/commit/77f1f2ad11d96f8a717eb71596ac55c5fab30bab) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@storybook/addon-essentials` to `7.6.15`.
+  Updated dependency `@storybook/addon-interactions` to `7.6.15`.
+  Updated dependency `@storybook/addon-links` to `7.6.15`.
+  Updated dependency `@storybook/blocks` to `7.6.15`.
+  Updated dependency `@storybook/react` to `7.6.15`.
+  Updated dependency `@storybook/react-webpack5` to `7.6.15`.
+  Updated dependency `@storybook/test` to `7.6.15`.
+  Updated dependency `storybook` to `7.6.15`.
+
+- [#221](https://github.com/kinguru-io/kinguru-monorepo/pull/221) [`0440e5f`](https://github.com/kinguru-io/kinguru-monorepo/commit/0440e5f551539e949d9f0345006fade45dbdb828) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.61`.
+
+- [#208](https://github.com/kinguru-io/kinguru-monorepo/pull/208) [`f0dde76`](https://github.com/kinguru-io/kinguru-monorepo/commit/f0dde762604bf22edb3a7a6d831d76bc673f7aa9) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.56`.
+
+- [#215](https://github.com/kinguru-io/kinguru-monorepo/pull/215) [`aedbcf5`](https://github.com/kinguru-io/kinguru-monorepo/commit/aedbcf54f055e3cf10cec19fb4f911e0af5ec23c) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.58`.
+
+- [#184](https://github.com/kinguru-io/kinguru-monorepo/pull/184) [`d174c24`](https://github.com/kinguru-io/kinguru-monorepo/commit/d174c24700fb5099f9542d80c58701eb0601aa89) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/jest` to `29.5.12`.
+
+- [#178](https://github.com/kinguru-io/kinguru-monorepo/pull/178) [`3d714da`](https://github.com/kinguru-io/kinguru-monorepo/commit/3d714dad456bcd6215c2b1a2e41d1589e7230ccc) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@storybook/addon-essentials` to `7.6.12`.
+  Updated dependency `@storybook/addon-interactions` to `7.6.12`.
+  Updated dependency `@storybook/addon-links` to `7.6.12`.
+  Updated dependency `@storybook/blocks` to `7.6.12`.
+  Updated dependency `@storybook/react` to `7.6.12`.
+  Updated dependency `@storybook/react-webpack5` to `7.6.12`.
+  Updated dependency `@storybook/test` to `7.6.12`.
+  Updated dependency `storybook` to `7.6.12`.
+
+- [#189](https://github.com/kinguru-io/kinguru-monorepo/pull/189) [`10067ff`](https://github.com/kinguru-io/kinguru-monorepo/commit/10067ff4cd04b20ae6286bc22de0bd3a50c14a2f) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.53`.
+
+- [#207](https://github.com/kinguru-io/kinguru-monorepo/pull/207) [`b6f73f0`](https://github.com/kinguru-io/kinguru-monorepo/commit/b6f73f0e2812279163eada4ae96f5f8694f2c9ad) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `eslint-plugin-storybook` to `0.8.0`.
+
+- [#227](https://github.com/kinguru-io/kinguru-monorepo/pull/227) [`84f664a`](https://github.com/kinguru-io/kinguru-monorepo/commit/84f664abe3364a99cd1022fd2a6df240b71e0f4f) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.63`.
+
+- [#219](https://github.com/kinguru-io/kinguru-monorepo/pull/219) [`3f8deb6`](https://github.com/kinguru-io/kinguru-monorepo/commit/3f8deb6a131a4f70def500e891685441d5cbb778) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@babel/core` to `7.24.0`.
+  Updated dependency `@babel/preset-env` to `7.24.0`.
+
+- [#176](https://github.com/kinguru-io/kinguru-monorepo/pull/176) [`8a1169a`](https://github.com/kinguru-io/kinguru-monorepo/commit/8a1169ad241a3f3da6ac200c9c4d803ef16b1400) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `css-loader` to `6.10.0`.
+
+- [#240](https://github.com/kinguru-io/kinguru-monorepo/pull/240) [`81a0264`](https://github.com/kinguru-io/kinguru-monorepo/commit/81a026441e9e4f6b1dd8f9f4525dcdc18ccbc291) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.65`.
+
+- [#188](https://github.com/kinguru-io/kinguru-monorepo/pull/188) [`ad71aa9`](https://github.com/kinguru-io/kinguru-monorepo/commit/ad71aa9a965b97050e836c23f85d89e03482fc67) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `prettier` to `3.2.5`.
+
+- [#196](https://github.com/kinguru-io/kinguru-monorepo/pull/196) [`0defb0b`](https://github.com/kinguru-io/kinguru-monorepo/commit/0defb0b2aa661eb95f465f43656dfa8e7cde533a) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react-dom` to `18.2.19`.
+
+- [#192](https://github.com/kinguru-io/kinguru-monorepo/pull/192) [`2b70392`](https://github.com/kinguru-io/kinguru-monorepo/commit/2b70392524575d4bf69556221aeef7305067fd7b) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.54`.
+
+- [#217](https://github.com/kinguru-io/kinguru-monorepo/pull/217) [`ba4dbbc`](https://github.com/kinguru-io/kinguru-monorepo/commit/ba4dbbc2fa122a72d069593b29ad820b26e31a28) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.59`.
+
+- [#231](https://github.com/kinguru-io/kinguru-monorepo/pull/231) [`8985bb6`](https://github.com/kinguru-io/kinguru-monorepo/commit/8985bb612d849329709c8aa9904c7222c7f65a51) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.64`.
+
+- [#194](https://github.com/kinguru-io/kinguru-monorepo/pull/194) [`3769ec9`](https://github.com/kinguru-io/kinguru-monorepo/commit/3769ec9ddc41c23c5c1f3dc14d7ab30d827c88f9) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.55`.
+
+- [#239](https://github.com/kinguru-io/kinguru-monorepo/pull/239) [`024b316`](https://github.com/kinguru-io/kinguru-monorepo/commit/024b316710395a04d3e9e0da0d1bd9b1f0487808) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@storybook/addon-essentials` to `8.0.0`.
+  Updated dependency `@storybook/addon-interactions` to `8.0.0`.
+  Updated dependency `@storybook/addon-links` to `8.0.0`.
+  Updated dependency `@storybook/addon-onboarding` to `8.0.0`.
+  Updated dependency `@storybook/blocks` to `8.0.0`.
+  Updated dependency `@storybook/react` to `8.0.0`.
+  Updated dependency `@storybook/react-webpack5` to `8.0.0`.
+  Updated dependency `@storybook/test` to `8.0.0`.
+  Updated dependency `storybook` to `8.0.0`.
+
+- [#182](https://github.com/kinguru-io/kinguru-monorepo/pull/182) [`735ccae`](https://github.com/kinguru-io/kinguru-monorepo/commit/735ccaef5f50140a3c2463694cc045f92613a05c) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.51`.
+
+- [#210](https://github.com/kinguru-io/kinguru-monorepo/pull/210) [`f110548`](https://github.com/kinguru-io/kinguru-monorepo/commit/f11054849e5a7936af1a33f265f4a52e1bc0d0e7) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `webpack` to `5.90.3`.
+
 ## 0.0.22
 
 ### Patch Changes
