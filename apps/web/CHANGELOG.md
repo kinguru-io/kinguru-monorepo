@@ -1,5 +1,11 @@
 # web
 
+## 0.0.41
+
+### Patch Changes
+
+- [#245](https://github.com/kinguru-io/kinguru-monorepo/pull/245) [`a350ada`](https://github.com/kinguru-io/kinguru-monorepo/commit/a350ada9bc1b3a64b7f5af4a8ffc343940467c41) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.21.0`.
+
 ## 0.0.40
 
 ### Patch Changes
