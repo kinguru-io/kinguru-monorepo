@@ -70,10 +70,10 @@ importers:
         version: link:../../packages/uikit
       '@kuma-ui/core':
         specifier: 1.5.6
-        version: 1.5.6(@types/react@18.2.66)(next@14.1.3)(react@18.2.0)
+        version: 1.5.6(@types/react@18.2.67)(next@14.1.3)(react@18.2.0)
       '@kuma-ui/next-plugin':
         specifier: 1.1.15
-        version: 1.1.15(@babel/core@7.24.0)(@types/react@18.2.66)(next@14.1.3)(react@18.2.0)(webpack@5.90.3)
+        version: 1.1.15(@babel/core@7.24.0)(@types/react@18.2.67)(next@14.1.3)(react@18.2.0)(webpack@5.90.3)
       database:
         specifier: workspace:*
         version: link:../../packages/database
@@ -106,8 +106,8 @@ importers:
         specifier: ^18
         version: 18.19.3
       '@types/react':
-        specifier: 18.2.66
-        version: 18.2.66
+        specifier: 18.2.67
+        version: 18.2.67
       '@types/react-dom':
         specifier: 18.2.22
         version: 18.2.22
@@ -222,7 +222,7 @@ importers:
     dependencies:
       '@kuma-ui/core':
         specifier: 1.5.6
-        version: 1.5.6(@types/react@18.2.66)(next@14.1.3)(react@18.2.0)
+        version: 1.5.6(@types/react@18.2.67)(next@14.1.3)(react@18.2.0)
       normalize.css:
         specifier: 8.0.1
         version: 8.0.1
@@ -244,10 +244,10 @@ importers:
         version: 7.23.3(@babel/core@7.24.0)
       '@kuma-ui/webpack-plugin':
         specifier: 1.2.7
-        version: 1.2.7(@types/react@18.2.66)(react@18.2.0)(webpack@5.90.3)
+        version: 1.2.7(@types/react@18.2.67)(react@18.2.0)(webpack@5.90.3)
       '@storybook/addon-essentials':
         specifier: 8.0.0
-        version: 8.0.0(@types/react@18.2.66)(react-dom@18.2.0)(react@18.2.0)
+        version: 8.0.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/addon-interactions':
         specifier: 8.0.0
         version: 8.0.0
@@ -259,7 +259,7 @@ importers:
         version: 8.0.0
       '@storybook/blocks':
         specifier: 8.0.0
-        version: 8.0.0(@types/react@18.2.66)(react-dom@18.2.0)(react@18.2.0)
+        version: 8.0.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/react':
         specifier: 8.0.0
         version: 8.0.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
@@ -276,8 +276,8 @@ importers:
         specifier: ^18
         version: 18.19.3
       '@types/react':
-        specifier: 18.2.66
-        version: 18.2.66
+        specifier: 18.2.67
+        version: 18.2.67
       '@types/react-dom':
         specifier: 18.2.22
         version: 18.2.22
@@ -2617,12 +2617,12 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@kuma-ui/babel-plugin@1.1.14(@types/react@18.2.66)(next@14.1.3)(react@18.2.0):
+  /@kuma-ui/babel-plugin@1.1.14(@types/react@18.2.67)(next@14.1.3)(react@18.2.0):
     resolution: {integrity: sha512-IHsYyTzT/V3AvUJm88gQFjSMeIHvELsYbov5AwDTFU8TddHc1NgRlvP2BUKa+HmAUTcFtSrFYX+j0L+yj+Y+sQ==}
     dependencies:
       '@babel/core': 7.24.0
-      '@kuma-ui/compiler': 1.2.5(@types/react@18.2.66)(next@14.1.3)(react@18.2.0)
-      '@kuma-ui/core': 1.5.6(@types/react@18.2.66)(next@14.1.3)(react@18.2.0)
+      '@kuma-ui/compiler': 1.2.5(@types/react@18.2.67)(next@14.1.3)(react@18.2.0)
+      '@kuma-ui/core': 1.5.6(@types/react@18.2.67)(next@14.1.3)(react@18.2.0)
       '@kuma-ui/sheet': 1.3.0
       '@kuma-ui/system': 1.7.2
     transitivePeerDependencies:
@@ -2631,10 +2631,10 @@ packages:
       - react
       - supports-color
 
-  /@kuma-ui/compiler@1.2.5(@types/react@18.2.66)(next@14.1.3)(react@18.2.0):
+  /@kuma-ui/compiler@1.2.5(@types/react@18.2.67)(next@14.1.3)(react@18.2.0):
     resolution: {integrity: sha512-vnDT0gYT1pfnlqie6REX/TbG10vsjTcYWEN5P38FB1Zt88fnM7P/NC95cQBIZ0XLOEjArVCsKG2rqBhJBpLzWQ==}
     dependencies:
-      '@kuma-ui/core': 1.5.6(@types/react@18.2.66)(next@14.1.3)(react@18.2.0)
+      '@kuma-ui/core': 1.5.6(@types/react@18.2.67)(next@14.1.3)(react@18.2.0)
       '@kuma-ui/sheet': 1.3.0
       '@kuma-ui/system': 1.7.2
       ts-morph: 19.0.0
@@ -2643,7 +2643,7 @@ packages:
       - next
       - react
 
-  /@kuma-ui/core@1.5.6(@types/react@18.2.66)(next@14.1.3)(react@18.2.0):
+  /@kuma-ui/core@1.5.6(@types/react@18.2.67)(next@14.1.3)(react@18.2.0):
     resolution: {integrity: sha512-sTDdPyUg3FX5pKwkao4dB4chigJSzrhhPAYJt40jTK5IuF52Q8d3/P+pPevbgTu3TM+18jQsSNGqSL3HPMXhww==}
     peerDependencies:
       '@types/react': ^18.0.32
@@ -2657,13 +2657,13 @@ packages:
     dependencies:
       '@kuma-ui/sheet': 1.3.0
       '@kuma-ui/system': 1.7.3
-      '@types/react': 18.2.66
+      '@types/react': 18.2.67
       '@types/stylis': 4.2.4
       next: 14.1.3(@babel/core@7.24.0)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       stylis: 4.3.0
 
-  /@kuma-ui/next-plugin@1.1.15(@babel/core@7.24.0)(@types/react@18.2.66)(next@14.1.3)(react@18.2.0)(webpack@5.90.3):
+  /@kuma-ui/next-plugin@1.1.15(@babel/core@7.24.0)(@types/react@18.2.67)(next@14.1.3)(react@18.2.0)(webpack@5.90.3):
     resolution: {integrity: sha512-pxHgQGrZzkbPWdyOuXV/nfXSqdG+25Hh14oAt+fXFyBQ2I2+Q5I+8qdADvG8B0OPrLA2j0drnLhOS5axDSiO2Q==}
     peerDependencies:
       '@types/react': ^18.0.32
@@ -2677,9 +2677,9 @@ packages:
       '@babel/preset-env': 7.23.6(@babel/core@7.24.0)
       '@babel/preset-react': 7.23.3(@babel/core@7.24.0)
       '@babel/preset-typescript': 7.23.3(@babel/core@7.24.0)
-      '@kuma-ui/core': 1.5.6(@types/react@18.2.66)(next@14.1.3)(react@18.2.0)
-      '@kuma-ui/webpack-plugin': 1.2.7(@types/react@18.2.66)(next@14.1.3)(react@18.2.0)(webpack@5.90.3)
-      '@types/react': 18.2.66
+      '@kuma-ui/core': 1.5.6(@types/react@18.2.67)(next@14.1.3)(react@18.2.0)
+      '@kuma-ui/webpack-plugin': 1.2.7(@types/react@18.2.67)(next@14.1.3)(react@18.2.0)(webpack@5.90.3)
+      '@types/react': 18.2.67
       babel-loader: 9.1.3(@babel/core@7.24.0)(webpack@5.90.3)
       browserslist: 4.21.5
       next: 14.1.3(@babel/core@7.24.0)(react-dom@18.2.0)(react@18.2.0)
@@ -2707,12 +2707,12 @@ packages:
       '@kuma-ui/sheet': 1.3.0
       csstype: 3.1.3
 
-  /@kuma-ui/webpack-plugin@1.2.7(@types/react@18.2.66)(next@14.1.3)(react@18.2.0)(webpack@5.90.3):
+  /@kuma-ui/webpack-plugin@1.2.7(@types/react@18.2.67)(next@14.1.3)(react@18.2.0)(webpack@5.90.3):
     resolution: {integrity: sha512-Y+YQ+iauw0iAiPf4kuBozAx8jejnzhw4HUgWodiaJFOOITuQMA5jT8X1J/pvFwdRXuefO9lnN5YNKIc/a6P0XA==}
     peerDependencies:
       webpack: ^5
     dependencies:
-      '@kuma-ui/babel-plugin': 1.1.14(@types/react@18.2.66)(next@14.1.3)(react@18.2.0)
+      '@kuma-ui/babel-plugin': 1.1.14(@types/react@18.2.67)(next@14.1.3)(react@18.2.0)
       '@kuma-ui/sheet': 1.3.0
       '@kuma-ui/system': 1.7.2
       esbuild: 0.18.20
@@ -2725,12 +2725,12 @@ packages:
       - supports-color
     dev: false
 
-  /@kuma-ui/webpack-plugin@1.2.7(@types/react@18.2.66)(react@18.2.0)(webpack@5.90.3):
+  /@kuma-ui/webpack-plugin@1.2.7(@types/react@18.2.67)(react@18.2.0)(webpack@5.90.3):
     resolution: {integrity: sha512-Y+YQ+iauw0iAiPf4kuBozAx8jejnzhw4HUgWodiaJFOOITuQMA5jT8X1J/pvFwdRXuefO9lnN5YNKIc/a6P0XA==}
     peerDependencies:
       webpack: ^5
     dependencies:
-      '@kuma-ui/babel-plugin': 1.1.14(@types/react@18.2.66)(next@14.1.3)(react@18.2.0)
+      '@kuma-ui/babel-plugin': 1.1.14(@types/react@18.2.67)(next@14.1.3)(react@18.2.0)
       '@kuma-ui/sheet': 1.3.0
       '@kuma-ui/system': 1.7.2
       esbuild: 0.18.20
@@ -2763,14 +2763,14 @@ packages:
       read-yaml-file: 1.1.0
     dev: true
 
-  /@mdx-js/react@3.0.1(@types/react@18.2.66)(react@18.2.0):
+  /@mdx-js/react@3.0.1(@types/react@18.2.67)(react@18.2.0):
     resolution: {integrity: sha512-9ZrPIU4MGf6et1m1ov3zKf+q9+deetI51zprKB1D/z3NOb+rUxxtEl3mCjW5wTGh6VhRdwPueh1oRzi6ezkA8A==}
     peerDependencies:
       '@types/react': '>=16'
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.10
-      '@types/react': 18.2.66
+      '@types/react': 18.2.67
       react: 18.2.0
     dev: true
 
@@ -3138,7 +3138,7 @@ packages:
       - supports-color
     dev: false
 
-  /@radix-ui/react-compose-refs@1.0.1(@types/react@18.2.66)(react@18.2.0):
+  /@radix-ui/react-compose-refs@1.0.1(@types/react@18.2.67)(react@18.2.0):
     resolution: {integrity: sha512-fDSBgd44FKHa1FRMU59qBMPFcl2PZE+2nmqunj+BWFyYYjnhIDWL2ItDs3rrbJDQOtzt5nIebLCQc4QRfz6LJw==}
     peerDependencies:
       '@types/react': '*'
@@ -3148,11 +3148,11 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.23.6
-      '@types/react': 18.2.66
+      '@types/react': 18.2.67
       react: 18.2.0
     dev: true
 
-  /@radix-ui/react-slot@1.0.2(@types/react@18.2.66)(react@18.2.0):
+  /@radix-ui/react-slot@1.0.2(@types/react@18.2.67)(react@18.2.0):
     resolution: {integrity: sha512-YeTpuq4deV+6DusvVUW4ivBgnkHwECUu0BiN43L5UCDFgdhsRUWAghhTF5MbvNTPzmiFOx90asDSUjWuCNapwg==}
     peerDependencies:
       '@types/react': '*'
@@ -3162,8 +3162,8 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.23.6
-      '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.66)(react@18.2.0)
-      '@types/react': 18.2.66
+      '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.67)(react@18.2.0)
+      '@types/react': 18.2.67
       react: 18.2.0
     dev: true
 
@@ -3244,10 +3244,10 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
-  /@storybook/addon-controls@8.0.0(@types/react@18.2.66)(react-dom@18.2.0)(react@18.2.0):
+  /@storybook/addon-controls@8.0.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-hBYJ9O6G+lN43TxNPnw78GhLirjRVN8kFJSVg2Bha87hIvS3c/zx5ZWqtiXjp4wL4/r/IFe4EvBcBQh4Mpi8uw==}
     dependencies:
-      '@storybook/blocks': 8.0.0(@types/react@18.2.66)(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/blocks': 8.0.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
       lodash: 4.17.21
       ts-dedent: 2.2.0
     transitivePeerDependencies:
@@ -3262,10 +3262,10 @@ packages:
     resolution: {integrity: sha512-P86M4Mo3FKtMIzSc8Hao46NmrlBs4w81BVf3AWNVka5aIPdWP2pINgDDDweASPgFKMVQNWUreR5pl0DHZfaJ5g==}
     dependencies:
       '@babel/core': 7.24.0
-      '@mdx-js/react': 3.0.1(@types/react@18.2.66)(react@18.2.0)
-      '@storybook/blocks': 8.0.0(@types/react@18.2.66)(react-dom@18.2.0)(react@18.2.0)
+      '@mdx-js/react': 3.0.1(@types/react@18.2.67)(react@18.2.0)
+      '@storybook/blocks': 8.0.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/client-logger': 8.0.0
-      '@storybook/components': 8.0.0(@types/react@18.2.66)(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/components': 8.0.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/csf-plugin': 8.0.0
       '@storybook/csf-tools': 8.0.0
       '@storybook/global': 5.0.0
@@ -3274,7 +3274,7 @@ packages:
       '@storybook/react-dom-shim': 8.0.0(react-dom@18.2.0)(react@18.2.0)
       '@storybook/theming': 8.0.0(react-dom@18.2.0)(react@18.2.0)
       '@storybook/types': 8.0.0
-      '@types/react': 18.2.66
+      '@types/react': 18.2.67
       fs-extra: 11.2.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -3286,12 +3286,12 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/addon-essentials@8.0.0(@types/react@18.2.66)(react-dom@18.2.0)(react@18.2.0):
+  /@storybook/addon-essentials@8.0.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-n5uNerxBj2PrL8NJhzSUL3ctsW3Wy0ySBBrrChhBaXLoAkTP+KpJlX8h55abxdMkI0i+dreS//XQ0lpw1KX4pw==}
     dependencies:
       '@storybook/addon-actions': 8.0.0
       '@storybook/addon-backgrounds': 8.0.0
-      '@storybook/addon-controls': 8.0.0(@types/react@18.2.66)(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/addon-controls': 8.0.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/addon-docs': 8.0.0
       '@storybook/addon-highlight': 8.0.0
       '@storybook/addon-measure': 8.0.0
@@ -3369,7 +3369,7 @@ packages:
       memoizerific: 1.11.3
     dev: true
 
-  /@storybook/blocks@8.0.0(@types/react@18.2.66)(react-dom@18.2.0)(react@18.2.0):
+  /@storybook/blocks@8.0.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-Sxy7pOa6B3ci/XhfKca6u97Kz6pGZV5ieQBUWRYByUZTjiOp12RVLFptexxrJHyNBA00BHJPek4fvFSJfn6nOQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -3382,7 +3382,7 @@ packages:
     dependencies:
       '@storybook/channels': 8.0.0
       '@storybook/client-logger': 8.0.0
-      '@storybook/components': 8.0.0(@types/react@18.2.66)(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/components': 8.0.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/core-events': 8.0.0
       '@storybook/csf': 0.1.2
       '@storybook/docs-tools': 8.0.0
@@ -3575,13 +3575,13 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/components@8.0.0(@types/react@18.2.66)(react-dom@18.2.0)(react@18.2.0):
+  /@storybook/components@8.0.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-+LmHnR2XQQ76uyWW5u+9ZBlS5sPyJWE6cbMdmkJ0PMGaZdZuF07urcg4z4/qBsDxRZDquBPu/Li5xx6OjXhVKw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@radix-ui/react-slot': 1.0.2(@types/react@18.2.66)(react@18.2.0)
+      '@radix-ui/react-slot': 1.0.2(@types/react@18.2.67)(react@18.2.0)
       '@storybook/client-logger': 8.0.0
       '@storybook/csf': 0.1.2
       '@storybook/global': 5.0.0
@@ -4395,11 +4395,11 @@ packages:
   /@types/react-dom@18.2.22:
     resolution: {integrity: sha512-fHkBXPeNtfvri6gdsMYyW+dW7RXFo6Ad09nLFK0VQWR7yGLai/Cyvyj696gbwYvBnhGtevUG9cET0pmUbMtoPQ==}
     dependencies:
-      '@types/react': 18.2.66
+      '@types/react': 18.2.67
     dev: true
 
-  /@types/react@18.2.66:
-    resolution: {integrity: sha512-OYTmMI4UigXeFMF/j4uv0lBBEbongSgptPrHBxqME44h9+yNov+oL6Z3ocJKo0WyXR84sQUNeyIp9MRfckvZpg==}
+  /@types/react@18.2.67:
+    resolution: {integrity: sha512-vkIE2vTIMHQ/xL0rgmuoECBCkZFZeHr49HeWSc24AptMbNRo7pwSBvj73rlJJs9fGKj0koS+V7kQB1jHS0uCgw==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
