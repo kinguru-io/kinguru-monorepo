@@ -1,5 +1,14 @@
 # @kinguru/uikit
 
+## 0.0.27
+
+### Patch Changes
+
+- [#251](https://github.com/kinguru-io/kinguru-monorepo/pull/251) [`83f8c1d`](https://github.com/kinguru-io/kinguru-monorepo/commit/83f8c1df7a999c7a41a5acac87bc381a6ee440e8) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@babel/core` to `7.24.1`.
+  Updated dependency `@babel/preset-env` to `7.24.1`.
+  Updated dependency `@babel/preset-react` to `7.24.1`.
+  Updated dependency `@babel/preset-typescript` to `7.24.1`.
+
 ## 0.0.26
 
 ### Patch Changes
