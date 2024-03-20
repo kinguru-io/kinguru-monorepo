@@ -1,5 +1,11 @@
 # @kinguru/uikit
 
+## 0.0.29
+
+### Patch Changes
+
+- [#259](https://github.com/kinguru-io/kinguru-monorepo/pull/259) [`d65165f`](https://github.com/kinguru-io/kinguru-monorepo/commit/d65165ff03c5a2c45cd51288580e041d73b181f5) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `webpack` to `5.91.0`.
+
 ## 0.0.28
 
 ### Patch Changes
