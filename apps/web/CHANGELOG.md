@@ -1,5 +1,11 @@
 # web
 
+## 0.0.46
+
+### Patch Changes
+
+- [#255](https://github.com/kinguru-io/kinguru-monorepo/pull/255) [`6618704`](https://github.com/kinguru-io/kinguru-monorepo/commit/6618704d52f4589ecc1afde78a27244bd52bb289) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `nodemailer` to `6.9.13`.
+
 ## 0.0.45
 
 ### Patch Changes
