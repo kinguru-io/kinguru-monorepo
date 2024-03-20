@@ -1,5 +1,12 @@
 # web
 
+## 0.0.45
+
+### Patch Changes
+
+- [#253](https://github.com/kinguru-io/kinguru-monorepo/pull/253) [`02a7d6e`](https://github.com/kinguru-io/kinguru-monorepo/commit/02a7d6e06092b3694541623434215ccb47f31e9b) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `eslint-config-next` to `14.1.4`.
+  Updated dependency `next` to `14.1.4`.
+
 ## 0.0.44
 
 ### Patch Changes
