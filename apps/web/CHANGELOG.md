@@ -1,5 +1,19 @@
 # web
 
+## 0.0.49
+
+### Patch Changes
+
+- [#264](https://github.com/kinguru-io/kinguru-monorepo/pull/264) [`2d8ef04`](https://github.com/kinguru-io/kinguru-monorepo/commit/2d8ef0464657c79b15ab3b387965b75c88c33f91) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.10.0`.
+
+- [#261](https://github.com/kinguru-io/kinguru-monorepo/pull/261) [`bb916f2`](https://github.com/kinguru-io/kinguru-monorepo/commit/bb916f2241d127c3b2b8f400efe639dfcc92d359) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.73`.
+  Updated dependency `@types/react-dom` to `18.2.23`.
+
+- [#265](https://github.com/kinguru-io/kinguru-monorepo/pull/265) [`9fa994c`](https://github.com/kinguru-io/kinguru-monorepo/commit/9fa994c7beb92bb290a4c723aa0d9d8a97998279) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.23.0`.
+
+- Updated dependencies [[`bb916f2`](https://github.com/kinguru-io/kinguru-monorepo/commit/bb916f2241d127c3b2b8f400efe639dfcc92d359)]:
+  - @kinguru/uikit@0.0.30
+
 ## 0.0.48
 
 ### Patch Changes
