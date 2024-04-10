@@ -1,5 +1,26 @@
 # web
 
+## 0.0.50
+
+### Patch Changes
+
+- [#279](https://github.com/kinguru-io/kinguru-monorepo/pull/279) [`9c6882a`](https://github.com/kinguru-io/kinguru-monorepo/commit/9c6882a8a834ca6dba76268103c232ddc98ec887) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.25.0`.
+
+- [#273](https://github.com/kinguru-io/kinguru-monorepo/pull/273) [`a4964e9`](https://github.com/kinguru-io/kinguru-monorepo/commit/a4964e989de4ee8aacd72c657909bd3403d113fa) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.11.0`.
+
+- [#278](https://github.com/kinguru-io/kinguru-monorepo/pull/278) [`6e09fca`](https://github.com/kinguru-io/kinguru-monorepo/commit/6e09fca1c1db7c64e087f53dcc42cdc47bd51742) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.75`.
+
+- [#272](https://github.com/kinguru-io/kinguru-monorepo/pull/272) [`a8a6d42`](https://github.com/kinguru-io/kinguru-monorepo/commit/a8a6d425d2cd3152c6bba56eb503916395374a3f) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react-dom` to `18.2.24`.
+
+- [#275](https://github.com/kinguru-io/kinguru-monorepo/pull/275) [`2251666`](https://github.com/kinguru-io/kinguru-monorepo/commit/2251666e3a48b52c67ffdc09930d401f91e539ea) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `stripe` to `14.24.0`.
+
+- [#267](https://github.com/kinguru-io/kinguru-monorepo/pull/267) [`e9c899d`](https://github.com/kinguru-io/kinguru-monorepo/commit/e9c899db660de35f25df478652c39d11b189fcae) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/react` to `18.2.74`.
+
+- [#276](https://github.com/kinguru-io/kinguru-monorepo/pull/276) [`5cfbf9a`](https://github.com/kinguru-io/kinguru-monorepo/commit/5cfbf9a7da7bd8a8bb9dce090ebf789c5ad9dc37) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `next-intl` to `3.11.1`.
+
+- Updated dependencies [[`2071f61`](https://github.com/kinguru-io/kinguru-monorepo/commit/2071f611f1ceb2f8495daa03d49620f14fa2dfe9), [`6e09fca`](https://github.com/kinguru-io/kinguru-monorepo/commit/6e09fca1c1db7c64e087f53dcc42cdc47bd51742), [`8d6482d`](https://github.com/kinguru-io/kinguru-monorepo/commit/8d6482dcf932f12cef4e6dcf6bc683fd5e08e9ea), [`a8a6d42`](https://github.com/kinguru-io/kinguru-monorepo/commit/a8a6d425d2cd3152c6bba56eb503916395374a3f), [`c1b8ebd`](https://github.com/kinguru-io/kinguru-monorepo/commit/c1b8ebde53a0410d97e207bddf6c822881b8b9d2), [`e9c899d`](https://github.com/kinguru-io/kinguru-monorepo/commit/e9c899db660de35f25df478652c39d11b189fcae), [`045d830`](https://github.com/kinguru-io/kinguru-monorepo/commit/045d830d27529a8ee15cce04fc40e3fc67700740), [`5df6752`](https://github.com/kinguru-io/kinguru-monorepo/commit/5df6752e4b1fc393d6841c9ee31a647066945526)]:
+  - @kinguru/uikit@0.0.31
+
 ## 0.0.49
 
 ### Patch Changes
